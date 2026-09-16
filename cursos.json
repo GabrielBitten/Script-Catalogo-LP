@@ -1,0 +1,3106 @@
+{
+  "graduacao": {
+    "singular": "curso de graduação",
+    "plural": "cursos de graduação",
+    "filtros": [
+      {
+        "chave": "bacharelado",
+        "label": "Bacharelado EAD"
+      },
+      {
+        "chave": "semipresencial",
+        "label": "Semipresencial"
+      },
+      {
+        "chave": "tecnologo",
+        "label": "Tecnólogo EAD"
+      }
+    ],
+    "grupos": [
+      {
+        "chave": "bacharelado",
+        "label": "Bacharelado EAD",
+        "cursos": [
+          {
+            "nome": "Administração",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Administração Pública",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Arquivologia",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Biblioteconomia",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Ciência Política",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Ciências Contábeis",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Ciências Econômicas",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Ciências Imobiliárias",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Ciências Sociais",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Engenharia de Agentes de IA",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Engenharia de Dados",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Engenharia de Design Digital",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Engenharia de Prompt",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Engenharia de Segurança Cibernética",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Engenharia de Software",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Engenharia DevOps",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Estudos Teóricos Psicanalíticos e Sociais",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Geografia",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Letras",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Museologia",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Publicidade e Propaganda",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Relações Internacionais",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Sociologia",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Teologia",
+            "duracao": "(3 Anos)"
+          }
+        ]
+      },
+      {
+        "chave": "semipresencial",
+        "label": "Semipresencial",
+        "cursos": [
+          {
+            "nome": "Bacharelado em Ciências Biológicas",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Bacharelado em Educação Física",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Bacharelado em Estatística",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Bacharelado em Física",
+            "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Artes",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Artes Visuais",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Ciências Biológicas",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Ciências da Religião",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Ciências Sociais",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Computação e Informática",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Educação Especial",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Educação Física",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Filosofia",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Geografia",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em História",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Letras - Língua Portuguesa e LIBRAS",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Letras - Português e Espanhol",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Letras - Português e Inglês",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Letras Português–Italiano",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Matemática",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Pedagogia",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Psicopedagogia",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Química",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Licenciatura em Sociologia",
+            "duracao": "(4 Anos)"
+          },
+          {
+            "nome": "Tecnólogo em Atividades de Academia",
+            "duracao": "(1,5 Ano)"
+          }
+        ]
+      },
+      {
+        "chave": "tecnologo",
+        "label": "Tecnólogo EAD",
+        "cursos": [
+          {
+            "nome": "Análise e Desenvolvimento de Sistemas",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Banco de Dados",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Big Data e Inteligência Analítica",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Coaching e Desenvolvimento Humano",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Comércio Exterior",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Criminologia",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Desenvolvimento Comunitário",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Design de Animação",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Design de Interiores",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Design de Produto",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Design Gráfico",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Despachante Documentalista",
+            "duracao": "(2,5 Anos)"
+          },
+          {
+            "nome": "Embelezamento e Imagem Pessoal",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Empreendedorismo Educacional",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gastronomia",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gerência em Saúde",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão Comercial",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Atividade Policial",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão da Produção Industrial",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Gestão da Qualidade",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão da Tecnologia da Informação",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Gestão de Cidades Inteligentes e Sustentáveis",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Clínicas e Consultórios",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Cooperativas",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Investimentos",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Lojas e Pontos de Vendas",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Negócios Imobiliários",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Recursos Humanos",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Registros e Informações em Saúde",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Segurança Privada",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Varejo",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Turismo",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão do Agronegócio",
+            "duracao": "(2,5 Anos)"
+          },
+          {
+            "nome": "Gestão do Esporte",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão em Farmácia",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão Financeira",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão Pública",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Inteligência Artificial",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Internet das Coisas",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Investigação e Perícia Judicial",
+            "duracao": "(2,5 Anos)"
+          },
+          {
+            "nome": "Jogos Digitais",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Logística",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Marketing",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Marketing Digital",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Mediação, Conciliação e Arbitragem",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Mídias Sociais Digitais",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Ministério Pastoral",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Negócios Sustentáveis e ESG",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Perícia Judicial e Extrajudicial",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Processos Gerenciais",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Produção Audiovisual",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Produção de Conteúdos Digitais",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Recrutamento, Seleção e Desenvolvimento de Pessoas",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Redes de Computadores",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Secretariado",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Segurança da Informação",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Segurança no Trabalho",
+            "duracao": "(2,5 Anos)"
+          },
+          {
+            "nome": "Segurança no Trânsito",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Segurança Pública",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Serviços Jurídicos",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Serviços Jurídicos e Notariais",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Serviços Penais",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Serviços Previdenciários",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Sistemas para Internet",
+            "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Tradutor e Intérprete – Português-Francês",
+            "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Transformação Digital",
+            "duracao": "(2 Anos)"
+          }
+        ]
+      }
+    ]
+  },
+  "pos": {
+    "singular": "curso de pós-graduação",
+    "plural": "cursos de pós-graduação",
+    "filtros": [
+      {
+        "chave": "agronegocio",
+        "label": "Agronegócio"
+      },
+      {
+        "chave": "comunicacao-e-design",
+        "label": "Comunicação e Design"
+      },
+      {
+        "chave": "direito",
+        "label": "Direito"
+      },
+      {
+        "chave": "educacao",
+        "label": "Educação"
+      },
+      {
+        "chave": "engenharia",
+        "label": "Engenharia"
+      },
+      {
+        "chave": "financas",
+        "label": "Finanças"
+      },
+      {
+        "chave": "gestao-publica",
+        "label": "Gestão Pública"
+      },
+      {
+        "chave": "medicina-veterinaria",
+        "label": "Medicina Veterinária"
+      },
+      {
+        "chave": "negocios",
+        "label": "Negócios"
+      },
+      {
+        "chave": "saude",
+        "label": "Saúde"
+      },
+      {
+        "chave": "tecnologia",
+        "label": "Tecnologia"
+      }
+    ],
+    "grupos": [
+      {
+        "chave": "agronegocio",
+        "label": "Agronegócio",
+        "cursos": [
+          {
+            "nome": "ADMINISTRAÇÃO E AGRONEGÓCIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AGRICULTURA E AGRONEGÓCIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AGRICULTURA E SUSTENTABILIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AGROMETEOROLOGIA E CLIMATOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AGRONEGÓCIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AGRONEGÓCIO: GESTÃO E CONTABILIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO APLICADO AO AGRONEGÓCIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA AGRONÔMICA - ÊNFÂSE EM MANEJO DE PRAGAS E AGRICULTURA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FERTILIDADE, MANEJO DE SOLOS E NUTRIÇÃO DE PLANTAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO E ECONOMIA DO AGRONEGÓCIO",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "comunicacao-e-design",
+        "label": "Comunicação e Design",
+        "cursos": [
+          {
+            "nome": "ARQUITETURA E DESIGN DE INTERIORES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BRANDING E RELAÇÕES PÚBLICAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COMUNICAÇÃO E MULTIMEIOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COMUNICAÇÃO E ORATÓRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DESIGN INSTRUCIONAL",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "DESIGN THINKING, CRIATIVIDADE E INOVAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA COMUNICAÇÃO E MÍDIAS DIGITAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA COMUNICAÇÃO ORGANIZACIONAL E JORNALISMO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM COMUNICAÇÃO CORPORATIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "REVISÃO DE TEXTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SOCIAL MEDIA E TRÁFEGO PAGO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TRADUÇÃO: A TRADUÇÃO TÉCNICA",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "direito",
+        "label": "Direito",
+        "cursos": [
+          {
+            "nome": "ADVOCACIA NO DIREITO PRIVADO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ARBITRAGEM, CONCILIAÇÃO E MEDIAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONCILIAÇÃO E MEDIAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO",
+            "duracao": "(420h)"
+          },
+          {
+            "nome": "DIREITO ADUANEIRO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO AMBIENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO CONSTITUCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO DA CRIANÇA E DO ADOLESCENTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO DAS FAMÍLIAS E SUCESSÕES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO DO CONSUMIDOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO DO TRABALHO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO E SERVIÇO SOCIAL NO JUDICIÁRIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ELEITORAL, GOVERNANÇA E MARKETING POLÍTICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO EMPRESARIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO FINANCEIRO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO MÉDICO E HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO NOTARIAL E REGISTRAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO PENAL E PROCESSUAL PENAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO PREVIDENCIÁRIO E SAÚDE DO TRABALHADOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO PREVIDENCIÁRIO RGPS: A NOVA PREVIDÊNCIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO PROCESSUAL CIVIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO TRIBUTÁRIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITOS HUMANOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA EM DIREITO PENAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LICITAÇÕES E CONTRATOS - LEI 14.133/2021",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PERÍCIA CRIMINAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA JURÍDICA",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "educacao",
+        "label": "Educação",
+        "cursos": [
+          {
+            "nome": "A MODERNA EDUCAÇÃO: METODOLOGIAS, TENDÊNCIAS E FOCO NO ALUNO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ABA APLICADA AO TRANSTORNO DO ESPECTRO AUTISTA (TEA)",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "ADMINISTRAÇÃO, SUPERVISÃO E ORIENTAÇÃO EDUCACIONAL",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "ALFABETIZAÇÃO E LETRAMENTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ALFABETIZAÇÃO E LETRAMENTO E A PSICOPEDAGOGIA INSTITUCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANDRAGOGIA: FORMAÇÃO DE JOVENS E ADULTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ARTE E EDUCAÇÃO",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "ATENDIMENTO EDUCACIONAL ESPECIALIZADO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ATENDIMENTO EDUCACIONAL ESPECIALIZADO (AEE) E A EDUCAÇÃO INCLUSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BASE NACIONAL COMUM CURRICULAR (BNCC): FORMAÇÃO DOCENTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BASE NACIONAL COMUM CURRICULAR: GESTÃO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CIÊNCIA E A PESQUISA CIENTÍFICA NO ENSINO SUPERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CIÊNCIAS DA RELIGIÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA E PLANEJAMENTO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA E SUPERVISÃO ESCOLAR",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA PARA POLOS DE APOIO PRESENCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO DE EDUCAÇÃO FÍSICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO DE FILOSOFIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO RELIGIOSO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO SUPERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA E GESTÃO DO ENSINO SUPERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA EM DIREITO CIVIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA NA EDUCAÇÃO INFANTIL E ANOS INICIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA NA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA NO ENSINO SUPERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA NO ENSINO SUPERIOR EM SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO AMBIENTAL E SUSTENTABILIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO DE JOVENS E ADULTOS - EJA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL COM ÊNFASE EM DEFICIÊNCIA INTELECTUAL, FÍSICA E PSICOMOTORA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL COM ÊNFASE EM TRANSTORNOS GLOBAIS DE DESENVOLVIMENTO (TGD) E ALTAS HABILIDADES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL E INCLUSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL E PSICOMOTRICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FÍSICA E A PSICOMOTRICIDADE COM ÊNFASE NA EDUCAÇÃO INCLUSIVA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FÍSICA ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FÍSICA PARA DIABÉTICOS E DOENÇAS CRÔNICAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL DE 0 e 6 ANOS",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL E O DESENVOLVIMENTO DA CRIANÇA POR MEIO DOS JOGOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL, ANOS INICIAIS E PSICOPEDAGOGIA",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL, EDUCAÇÃO ESPECIAL E TRANSTORNOS GLOBAIS",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "EDUCAÇÃO SOCIAL E CIDADANIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO, LUDICIDADE E DESENVOLVIMENTO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENSINO LÚDICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ESCOLA DE GESTORES: FORMAÇÃO PRÁTICA DA GESTÃO ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES DA EDUCAÇÃO BÁSICA PARA O ENSINO DE ARTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA A EDUCAÇÃO BÁSICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA A EDUCAÇÃO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA ANOS INICIAIS COM ÊNFASE NO ENSINO DA MATEMÁTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA ANOS INICIAIS COM ÊNFASE NO ENSINO DE CIÊNCIAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA ANOS INICIAIS COM ÊNFASE NO ENSINO DE GEOGRAFIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE LÍNGUA ESPANHOLA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE LÍNGUA PORTUGUESA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE METODOLOGIA DE PESQUISA CIENTÍFICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE SOCIOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DO AMBIENTE ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ESCOLAR E LEGISLAÇÃO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ESCOLAR INTEGRADORA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO NA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "HISTÓRIA DO BRASIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "HISTÓRIA E CULTURA AFRO-BRASILEIRA E INDÍGENA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "HISTÓRIA E CULTURA NO BRASIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LIBRAS E EDUCAÇÃO INCLUSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LÍNGUA PORTUGUESA - REDAÇÃO E ORATÓRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LÍNGUA PORTUGUESA E INGLÊS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LÍNGUA PORTUGUESA E LITERATURA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LITERATURA: GÊNEROS LITERÁRIOS E CRÍTICA LITERÁRIA",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "MEDIAÇÃO PEDAGÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA GEOGRAFIA",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA LÍNGUA PORTUGUESA",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA LÍNGUA PORTUGUESA, LITERATURA BRASILEIRA E PORTUGUESA",
+            "duracao": "(600h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA MATEMÁTICA E FÍSICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DE FILOSOFIA E SOCIOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DE HISTÓRIA E GEOGRAFIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DE LÍNGUA INGLESA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "METODOLOGIAS ATIVAS E PRÁTICA DOCENTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NEUROPSICOPEDAGOGIA NA SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ORGANIZAÇÃO DO TRABALHO PEDAGÓGICO COM ENFASE NA GESTÃO ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ORIENTAÇÃO E SUPERVISÃO ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PEDAGOGIA COM ÊNFASE EM LUDICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PEDAGOGIA COM ÊNFASE EM PSICOLOGIA DA EDUCAÇÃO E SOCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PEDAGOGIA COM ÊNFASE EM PSICOPEDAGOGIA E LUDICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PEDAGOGIA COM ÊNFASE EM PSICOPEDAGOGIA E PSICOLOGIA SOCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PEDAGOGIA EMPRESARIAL E EDUCAÇÃO CORPORATIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PRÁTICAS EM EDUCAÇÃO BILÍNGUE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA DA EDUCAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOPEDAGOGIA COM ÊNFASE EM EDUCAÇÃO ESPECIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOPEDAGOGIA E ALTAS HABILIDADES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOPEDAGOGIA E EDUCAÇÃO INCLUSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOPEDAGOGIA E PSICOMOTRICIDADE",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "SUPERVISÃO E COORDENAÇÃO PEDAGÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TECNOLOGIAS DIGITAIS E INOVAÇÃO NA EDUCAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TEORIA DA LITERATURA E PRODUÇÃO DE TEXTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TUTORIA E GESTÃO EM EDUCAÇÃO A DISTÂNCIA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "TUTORIA EM EDUCAÇÃO A DISTÂNCIA",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "engenharia",
+        "label": "Engenharia",
+        "cursos": [
+          {
+            "nome": "ARQUITETURA DA PAISAGEM",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ARQUITETURA E CIDADES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ARQUITETURA E GESTÃO DE INFRAESTRUTURA EM TI",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CERTIFICAÇÃO AMBIENTAL E CONSULTORIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CIÊNCIA E ENGENHARIA DOS MATERIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONSTRUÇÃO CIVIL RESIDENCIAIS, INDUSTRIAIS E ESPECIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONSTRUÇÃO CIVIL: RESIDENCIAL E INDUSTRIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DESENHO INDUSTRIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENERGIAS RENOVÁVEIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA AMBIENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA AMBIENTAL E SANEAMENTO BÁSICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA CIVIL E ARQUITETURA SUSTENTÁVEL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE ALIMENTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE CONFORTO TÉRMICO AMBIENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO INDUSTRIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE ESTRUTURAS EM CONCRETO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE INFRAESTRUTURA EM MEIOS DE TRANSPORTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE MATERIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE MATERIAIS COM ENFÂSE EM CORROSÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE MINAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE MOBILIDADE URBANA E SMART CITIES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE OBRAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE OPERAÇÕES E LOGÍSTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE POLÍMEROS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE PRODUÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE PRODUÇÃO COM ÊNFASE NA CONSTRUÇÃO CIVIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE QUALIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE SEGURANÇA CONTRA INCÊNDIO, PÂNICO E ELETRICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE SEGURANÇA DO TRABALHO",
+            "duracao": "(610h)"
+          },
+          {
+            "nome": "ENGENHARIA DE TRÁFEGO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA E DESENVOLVIMENTO DE PRODUTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA E GERENCIAMENTO DE MANUTENÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA E GESTÃO HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA ELÉTRICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA ELÉTRICA COM ÊNFASE EM INSTALAÇÕES INDUSTRIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA ELÉTRICA COM ÊNFASE EM INSTALAÇÕES RESIDENCIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA FARMACÊUTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA GENÉTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA GEOTÉCNICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA METALURGICA - PROCESSOS DE FABRICAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA MINERAL E PETROGRAFIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA QUÍMICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA TERMODINÂMICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO AMBIENTAL E SUSTENTABILIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM SEGURANÇA DO TRABALHO E GESTÃO AMBIENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PAISAGISMO E ILUMINAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "RECUPERAÇÃO AMBIENTAL DE ÁREAS DEGRADADAS E CONTAMINADAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SUSTENTABILIDADE E MEIO AMBIENTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TÉCNICAS DE CONSTRUÇÃO CIVIL",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "financas",
+        "label": "Finanças",
+        "cursos": [
+          {
+            "nome": "ADMINISTRAÇÃO FINANCEIRA E NEGOCIAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANÁLISE DE CUSTOS E ORÇAMENTO EMPRESARIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANÁLISE DE CUSTOS E PLANEJAMENTO ESTRATÉGICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AUDITORIA E CONTROLADORIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AUDITORIA E PERÍCIA CONTÁBIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AUDITORIA, COMPLIANCE E GESTÃO DE RISCOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONSULTORIA TRIBUTÁRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE E GOVERNANÇA CORPORATIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE GERENCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE TRIBUTÁRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE, AUDITORIA E PERÍCIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE, ORÇAMENTO E AUDITORIA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTROLADORIA E FINANÇAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FINANCEIRA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FINANÇAS E ANÁLISE DE CUSTOS EMPRESARIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO CONTÁBIL E FINANCEIRA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO CONTÁBIL E TRIBUTÁRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE CUSTOS E FORMAÇÃO DE PREÇOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO FINANCEIRA E ORÇAMENTÁRIA EM ORGANIZAÇÕES PÚBLICAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO FINANCEIRA ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LEGISLAÇÃO, PERÍCIA E AUDITORIA AMBIENTAL",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "MATEMÁTICA FINANCEIRA E ESTATÍSTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM ADMINISTRAÇÃO FINANCEIRA E ORÇAMENTÁRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM ADMINISTRAÇÃO, CONTABILIDADE E FINANÇAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM ECONOMIA E FINANÇAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM FINANÇAS CORPORATIVAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM FINANÇAS E MERCADO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO FINANCEIRA E CONTROLADORIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO TRIBUTÁRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EXECUTIVO EM GESTÃO DE INVESTIMENTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PLANEJAMENTO E ORÇAMENTO PÚBLICO",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "gestao-publica",
+        "label": "Gestão Pública",
+        "cursos": [
+          {
+            "nome": "ADMINISTRAÇÃO DE RECURSOS HUMANOS NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ADMINISTRAÇÃO PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ADMINISTRAÇÃO PÚBLICA E GESTÃO DE PESSOAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ADMINISTRAÇÃO PÚBLICA E GESTÃO ESTRATÉGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AUDITORIA E DIREITO NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE E CONTROLADORIA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTROLADORIA E AUDITORIA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO E GESTÃO DE PESSOAS NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO E GESTÃO ORÇAMENTÁRIA E FINANCEIRA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO E GESTÃO PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA INFORMAÇÃO, INOVAÇÃO E GOVERNANÇA PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE SERVIÇOS PÚBLICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO PATRIMONIAL E CONTROLADORIA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO PATRIMONIAL E DIREITO NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO PÚBLICA E SERVIÇOS SOCIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GOVERNANÇA E POLÍTICAS PÚBLICAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GOVERNANÇA PÚBLICA E GESTÃO DE PESSOAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SEGURANÇA PÚBLICA",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "medicina-veterinaria",
+        "label": "Medicina Veterinária",
+        "cursos": [
+          {
+            "nome": "PRODUÇÃO ANIMAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ZOOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ZOONOSES E SAÚDE PÚBLICA",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "negocios",
+        "label": "Negócios",
+        "cursos": [
+          {
+            "nome": "ADMINISTRAÇÃO ESTRATÉGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANÁLISE DE NEGÓCIO E CONSULTORIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COMÉRCIO EXTERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTROLE DE QUALIDADE E SEGURANÇA DE ALIMENTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GERENCIAMENTO DE PROJETOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GERENCIAMENTO DE PROJETOS PARA ENGENHEIROS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ÁGIL DE PROJETOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA PRODUÇÃO DE ALIMENTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA PRODUÇÃO E SUPRIMENTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE ATIVOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE MARKETING E E-COMMERCE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE NEGÓCIOS E EMPREENDEDORISMO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE PESSOAS, CONHECIMENTO E INOVAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE PROCESSOS LOGÍSTICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE PROJETOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE PROJETOS E PROGRAMAS SOCIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE RH COM ÊNFASE EM TREINAMENTO E DESENVOLVIMENTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE VENDAS E NEGOCIAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO EMPREENDEDORA DE EMPRESAS E LIDERANÇA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ESTRATÉGICA DE VENDAS PARA VAREJO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO GASTRONÔMICA E NEGÓCIOS EM ALIMENTAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO LOGÍSTICA COM ÊNFASE EM FROTAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LEAN MANUFACTURING",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MARKETING DIGITAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM EMPREENDEDORISMO, MARKETING E FINANÇAS (2023)",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO COMERCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DA QUALIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DA QUALIDADE, PRODUTIVIDADE E LOGÍSTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE EQUIPES E MARKETING",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE LOGÍSTICA E CADEIA DE SUPRIMENTOS (2023)",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE NEGÓCIOS E MARKETING",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE PESSOAS",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE PESSOAS E LIDERANÇA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE PESSOAS E NEGÓCIOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE PESSOAS E PSICOLOGIA ORGANIZACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE PESSOAS, LIDERANÇA E COACHING",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE PROCESSOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE RECURSOS HUMANOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO EMPRESARIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO EMPRESARIAL E LOGÍSTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO ESTRATÉGICA DE COMPRAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM LIDERANÇA, INOVAÇÃO E GESTÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM LOGÍSTICA E SUPPLY CHAIN MANAGEMENT",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM MARKETING E VENDAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PCP - PLANEJAMENTO E CONTROLE DE PRODUÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "RECURSOS HUMANOS E FINANÇAS",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "saude",
+        "label": "Saúde",
+        "cursos": [
+          {
+            "nome": "ADMINISTRAÇÃO HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANÁLISES CLÍNICAS E MICROBIOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANÁLISES CLÍNICAS E TOXICOLÓGICAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ANATOMIA E PATOLOGIAS ASSOCIADAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL E SAÚDE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ATIVIDADE FÍSICA EM GRUPOS ESPECIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AUDITORIA EM SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AVALIAÇÃO FÍSICA, ESPORTIVA E FUNCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BIOMEDICINA ESTÉTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CCIH- CONTROLE DE INFECÇÃO HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CINESIOLOGIA, BIOMECÂNICA E TREINAMENTO FÍSICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CITOLOGIA CLÍNICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CUIDADOS BÁSICOS EM CENTRO CIRÚRGICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CUIDADOS CIRÚRGICOS, CENTRAL DE MATERIAL E ESTERILIZAÇÃO (CME)",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DERMATOLOGIA ESTÉTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO PERMANENTE EM SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENFERMAGEM DO TRABALHO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENFERMAGEM, URGÊNCIA E EMERGÊNCIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ESTÉTICA E COSMETOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ESTUDOS EM EPIDEMIOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA CLÍNICA E ATENÇÃO FARMACÊUTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA CLÍNICA E PRESCRIÇÃO FARMACÊUTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA CLÍNICA E SERVIÇOS FARMACÊUTICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOLOGIA DO EXERCÍCIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA DERMATOFUNCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA NEUROLÓGICA ADULTA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA RESPIRATÓRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA TRAUMATO-ORTOPÉDICA E DESPORTIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GENÉTICA HUMANA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE CLÍNICAS, CONSULTÓRIOS E HOSPITAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE QUALIDADE HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE UNIDADES DE ALIMENTAÇÃO E NUTRIÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO EM SAÚDE DA FAMÍLIA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "GESTÃO EM SAÚDE MENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO EM SAÚDE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ESTRATÉGICA EM SAÚDE PÚBLICA E COLETIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "HEMOTERAPIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "IMUNOLOGIA E MICROBIOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INSTRUMENTALIDADE DO SERVIÇO SOCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INTERVENÇÃO PSICOSSOCIAL NO CONTEXTO MULTIDISCIPLINAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INVESTIGAÇÃO CRIMINAL E PSICOLOGIA FORENSE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO EM SAÚDE",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "MEDICINA DO TRABALHO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NEUROCIÊNCIA, APRENDIZAGEM E TOXICOLOGIA NEURAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NEUROCIÊNCIAS E COMPORTAMENTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO CLÍNICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO COM ÊNFASE EM OBESIDADE E EMAGRECIMENTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO COMPORTAMENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO ESPORTIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO HOSPITALAR E CLÍNICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO MATERNO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ODONTOLOGIA HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ODONTOLOGIA NO TRABALHO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ONCOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PRIMEIROS SOCORROS E INTERCORRÊNCIAS APLICADOS À ESTÉTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA E DESENVOLVIMENTO DA APRENDIZAGEM",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA E DESENVOLVIMENTO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA EM SAÚDE MENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA ORGANIZACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOMOTRICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOMOTRICIDADE NA SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOPATOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE COLETIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE COLETIVA E COMUNITÁRIA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "SAÚDE COLETIVA E EDUCAÇÃO EM SAÚDE BUCAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE DA MULHER",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE DO IDOSO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE DO TRABALHADOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE E ESPIRITUALIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE PÚBLICA",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "SAÚDE PÚBLICA COM ÊNFASE EM SAÚDE DA FAMÍLIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SEGURANÇA DO PACIENTE E GESTÃO DE QUALIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SERVIÇO SOCIAL E SAÚDE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SERVIÇO SOCIAL HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TRANSTORNO DO ESPECTRO AUTISTA (TEA): INTERVENÇÃO PRECOCE E EQUIPE MULTIDISCIPLINAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TRANSTORNO DO ESPECTRO AUTISTA (TEA): INTERVENÇÃO PRECOCE E EQUIPE MULTIDISCIPLINAR - SEMI",
+            "duracao": "(500h)"
+          },
+          {
+            "nome": "UTI - UNIDADE DE TERAPIA INTENSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "VIGILÂNCIA EM SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "VIGILÂNCIA SANITÁRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "VIGILÂNCIA SANITÁRIA E QUALIDADE DE ALIMENTOS",
+            "duracao": "(360h)"
+          }
+        ]
+      },
+      {
+        "chave": "tecnologia",
+        "label": "Tecnologia",
+        "cursos": [
+          {
+            "nome": "ANÁLISE DE SISTEMAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "APRENDIZAGEM DE MÁQUINA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BANCO DE DADOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BIOLOGIA MOLECULAR, GENÉTICA AVANÇADA E BIOTECNOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BUSINESS INTELLIGENCE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CIÊNCIA DE DADOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CIÊNCIA DE DADOS E BIG DATA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DESENVOLVIMENTO DE SISTEMAS COM C#",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DESENVOLVIMENTO DE SISTEMAS WEB COM PHP",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA DE SOFTWARE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DA TECNOLOGIA DA INFORMAÇÃO EM LOGÍSTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INTELIGÊNCIA ARTIFICIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INTELIGÊNCIA ARTIFICIAL E BIG DATA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INTELIGÊNCIA ARTIFICIAL E MACHINE LEARNING",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "PROTEÇÃO DE SISTEMAS ELÉTRICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SEGURANÇA DA INFORMAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SEGURANÇA DE REDES E COMPUTADORES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TECNOLOGIAS APLICADAS AO ENSINO A DISTÂNCIA",
+            "duracao": "(360h)"
+          }
+        ]
+      }
+    ]
+  },
+  "aperfeicoamento": {
+    "singular": "curso de aperfeiçoamento",
+    "plural": "cursos de aperfeiçoamento",
+    "filtros": [
+      {
+        "chave": "agronegocio-e-medicina-veterinaria",
+        "label": "Agronegócio e Medicina Veterinária"
+      },
+      {
+        "chave": "comunicacao-e-design",
+        "label": "Comunicação e Design"
+      },
+      {
+        "chave": "direito",
+        "label": "Direito"
+      },
+      {
+        "chave": "educacao",
+        "label": "Educação"
+      },
+      {
+        "chave": "engenharia",
+        "label": "Engenharia"
+      },
+      {
+        "chave": "financas",
+        "label": "Finanças"
+      },
+      {
+        "chave": "gestao-publica",
+        "label": "Gestão Pública"
+      },
+      {
+        "chave": "negocios",
+        "label": "Negócios"
+      },
+      {
+        "chave": "saude",
+        "label": "Saúde"
+      },
+      {
+        "chave": "tecnologia",
+        "label": "Tecnologia"
+      }
+    ],
+    "grupos": [
+      {
+        "chave": "agronegocio-e-medicina-veterinaria",
+        "label": "Agronegócio e Medicina Veterinária",
+        "cursos": [
+          {
+            "nome": "Administração e Agronegócio",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Agricultura e Agronegócio",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Agronegócio",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Certificação Ambiental e Consultoria",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Controle da Qualidade e Segurança de Alimentos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Fertilidade, Manejo de Solos e Nutrição de Plantas",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão Ambiental e Sustentabilidade",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão e Economia do Agronegócio",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Recuperação de Áreas e Licenciamento Ambiental",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "comunicacao-e-design",
+        "label": "Comunicação e Design",
+        "cursos": [
+          {
+            "nome": "Comunicação Corporativa",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Comunicação e Jornalismo",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Comunicação e Multimeios",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Design Thinking, Criatividade e Inovação",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Marketing e Lojas Virtuais",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Marketing e Mídias Sociais",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Marketing Estratégico",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Planejamento de Marketing",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "direito",
+        "label": "Direito",
+        "cursos": [
+          {
+            "nome": "Ações Constitucionais",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Advocacia e Processo Civil",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Agronegócio, Meio Ambiente e Tributos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Dignidade, Inclusão e Cidadania",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Direito das Famílias",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Direito das Sucessões",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Direito e Orçamento Público",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Direito Eleitoral, Partidos e Marketing",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Direito Penal Aplicado",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Docência em Direito e Metodologias Ativas",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Negociação e Resolução de Disputas",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Nova Previdência e Regimes Previdenciários",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Políticas de Segurança Pública",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Psicologia Criminal",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "educacao",
+        "label": "Educação",
+        "cursos": [
+          {
+            "nome": "Docência na Educação Profissional e Tecnológica",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação Especial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação Especial com Ênfase em Deficiência Intelectual, Física e Psicomotora",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação Especial e Inclusiva",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação Infantil",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação Infantil, Educação Especial e Transtornos Globais",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação, Ludicidade e Desenvolvimento Infantil",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Formação de Professores para a Educação Básica",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão dos Processos Educacionais Escolares e Não Escolares",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão na Educação Profissional e Tecnológica",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "História e Cultura Afro-Brasileira e Indígena",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Língua Portuguesa e Inglês",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Metodologia do Ensino da Geografia",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Metodologia do Ensino da Língua Portuguesa",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Metodologia do Ensino da Matemática e Física",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Metodologia do Ensino de História e Geografia",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "engenharia",
+        "label": "Engenharia",
+        "cursos": [
+          {
+            "nome": "Boas Práticas na Engenharia de Alimentos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Engenharia Química",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Ferramentas da Qualidade Industrial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Manutenção Industrial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Modais de Transporte Urbano",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Operações Logísticas Industriais",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Produção Industrial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Técnicas e Ferramentas de Desenho Arquitetônico",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "financas",
+        "label": "Finanças",
+        "cursos": [
+          {
+            "nome": "Administração Financeira e Negociação",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Auditoria e Gestão Ambiental",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Auditoria e Perícia Contábil",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Economia e Finanças",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Educação Financeira",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Investimentos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão Financeira",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão no Agronegócio",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "gestao-publica",
+        "label": "Gestão Pública",
+        "cursos": [
+          {
+            "nome": "Contabilidade Pública",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Serviços Públicos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão Patrimonial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão Pública",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Governança e Políticas Públicas",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Governança Pública e Gestão de Pessoas",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Planejamento e Orçamento Público",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Políticas Públicas",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "negocios",
+        "label": "Negócios",
+        "cursos": [
+          {
+            "nome": "Administração Estratégica",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão Comercial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão da Qualidade e Produtividade",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Pessoas e Liderança",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Processos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Recursos Humanos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão Financeira e Empresarial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Logística",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Marketing e Vendas",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "saude",
+        "label": "Saúde",
+        "cursos": [
+          {
+            "nome": "Avaliação Física e Fisiologia do Movimento Humano",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Comportamento Alimentar",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Cuidados na Terceira Idade",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Estética Contemporânea: Cosmética, Tecnologias e Procedimentos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Estética Corporal",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Farmácia Hospitalar",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão e Auditoria em Serviços de Saúde",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Neurocomportamento Humano",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Odontologia Clínica com Ênfase em Lesões e Atendimento Especial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Psicomotricidade Aplicada ao Desenvolvimento Humano",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Saúde Pública",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Saúde Pública e Epidemiologia Aplicada",
+            "duracao": "(200h)"
+          }
+        ]
+      },
+      {
+        "chave": "tecnologia",
+        "label": "Tecnologia",
+        "cursos": [
+          {
+            "nome": "Ciência de Dados Voltado a Linguagem R",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Desenvolvimento de Software",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Desenvolvimento de Software Ágil",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gerenciamento de Projetos",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Gestão de Equipes em TI",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Inteligência Artificial",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Inteligência de Dados",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Machine Learning",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Redes de Computadores",
+            "duracao": "(200h)"
+          },
+          {
+            "nome": "Segurança da Informação",
+            "duracao": "(200h)"
+          }
+        ]
+      }
+    ]
+  },
+  "profissionalizantes": {
+    "singular": "curso profissionalizante",
+    "plural": "cursos profissionalizantes",
+    "filtros": [
+      {
+        "chave": "engenharia-industria-e-construcao",
+        "label": "Engenharia, Indústria e Construção"
+      },
+      {
+        "chave": "negocios-e-gestao",
+        "label": "Negócios e Gestão"
+      },
+      {
+        "chave": "saude-e-bem-estar",
+        "label": "Saúde e Bem-estar"
+      },
+      {
+        "chave": "tecnologias-e-exatas",
+        "label": "Tecnologias e Exatas"
+      }
+    ],
+    "grupos": [
+      {
+        "chave": "engenharia-industria-e-construcao",
+        "label": "Engenharia, Indústria e Construção",
+        "cursos": [
+          {
+            "nome": "Auxiliar de Topografia ou Topógrafo",
+            "duracao": "(320h)"
+          },
+          {
+            "nome": "Cadista para a Construção Civil",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Desenhista Calculista na Construção Civil",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Desenhista de Arquitetura",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Desenhista Mecânico CBO",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Eletrônico de Sistemas Industriais Microcontrolados",
+            "duracao": "(1040h)"
+          },
+          {
+            "nome": "Inspetor de Qualidade do Sistema Elétrico",
+            "duracao": "(640h)"
+          },
+          {
+            "nome": "Instalador de Sistemas de Acionamentos Elétricos",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Instalador de Sistemas de Automação Industrial",
+            "duracao": "(640h)"
+          },
+          {
+            "nome": "Instalador de Sistemas Elétricos Industriais",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Instalador de Sistemas Elétricos Prediais",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Mecânico de Instrumentos de Precisão",
+            "duracao": "(640h)"
+          },
+          {
+            "nome": "Mestre de Obras",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Operador em Linha de Montagem de Equipamentos Eletroeletrônicos",
+            "duracao": "(880h)"
+          },
+          {
+            "nome": "Orçamentista da Construção Civil",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Projetista de Construção Civil",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Reparador de Circuitos Eletrônicos",
+            "duracao": "(720h)"
+          }
+        ]
+      },
+      {
+        "chave": "negocios-e-gestao",
+        "label": "Negócios e Gestão",
+        "cursos": [
+          {
+            "nome": "Agente de Microcrédito",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente Administrativo",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente Comercial",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Comércio Exterior",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Compras",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Assistente de Corretor de Imóveis",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Departamento de Pessoal",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Assistente de Logística",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Logística de Transporte",
+            "duracao": "(320h)"
+          },
+          {
+            "nome": "Assistente de Marketing",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Marketing Digital",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Planejamento e Controle de Produção",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Produção",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Assistente de Qualidade",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Assistente de Recursos Humanos",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Secretaria Escolar",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Suprimento",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Transporte e Distribuição",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Assistente de Vendas",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente Financeiro",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Auxiliar Contábil",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Auxiliar de Crédito e Cobrança",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Auxiliar de Escritório",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Auxiliar de Logística e Operações",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Auxiliar de Pessoal",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Auxiliar de Tesouraria",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Correspondente Bancário",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Estoquista",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Faturista",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Operador de Telemarketing",
+            "duracao": "(320h)"
+          },
+          {
+            "nome": "Perito Avaliador Imobiliário",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Representante Comercial",
+            "duracao": "(480h)"
+          }
+        ]
+      },
+      {
+        "chave": "saude-e-bem-estar",
+        "label": "Saúde e Bem-estar",
+        "cursos": [
+          {
+            "nome": "Agente de Combate de Endemias",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Agente de Desenvolvimento Socioambiental",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Agente de Gestão de Resíduos Sólidos",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Agente Local de Vigilância em Saúde",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Atendente de Farmácia",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Auxiliar de Enfermagem",
+            "duracao": "(880h)"
+          },
+          {
+            "nome": "Auxiliar de Farmácia de Manipulação",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Auxiliar Técnico em Segurança do Trabalho",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Agente Ambiental",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Bombeiro Civil",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Cuidador de Idosos",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Operador de Estações de Tratamento de Água, de Esgoto e de Efluentes Industriais",
+            "duracao": "(400h)"
+          }
+        ]
+      },
+      {
+        "chave": "tecnologias-e-exatas",
+        "label": "Tecnologias e Exatas",
+        "cursos": [
+          {
+            "nome": "Administrador de Banco de Dados",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Administrador de Redes",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Assistente de Administração do Windows Server",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Manutenção de Computadores",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Produção 3D",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Operação de Redes de Computadores",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Assistente de Produção Gráfica",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Assistente de Suporte e Manutenção de Computadores",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Desenhista de Maquete Eletrônica",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Diagramador",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Ilustrador",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Programador de Computadores",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Programador de Jogos Digitais",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Programador de Sistemas",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "Programador Mobile",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Programador Web",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Suporte Técnico",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "Web Designer",
+            "duracao": "(480h)"
+          },
+          {
+            "nome": "Web Master",
+            "duracao": "(480h)"
+          }
+        ]
+      }
+    ]
+  }
+}
