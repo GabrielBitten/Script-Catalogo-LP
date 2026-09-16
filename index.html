@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UNICIVE — Polo Caracol/MS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+*,
+*::before,
+*::after{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+/* overflow-x:clip em vez de hidden: "hidden" promove o overflow-y a "auto"
+   quando o outro eixo não é visible, transformando html/body em contêiner de
+   rolagem — é o que quebra o position:sticky do header. A linha "hidden" fica
+   como fallback para navegadores sem suporte a clip. */
+html,body{
+  width:100%;
+  max-width:100%;
+  overflow-x:hidden;
+  overflow-x:clip;
+}
+
+body{
+  margin:0;
+  font-family:'Rethink Sans',Helvetica,Arial,sans-serif;
+  color:#0C2620;
+  background:#fff;
+  -webkit-font-smoothing:antialiased;
+}
+
+a{color:#006652;text-decoration:none}
+a:hover{color:#004d3d}
+
+.ucv-wrap{
+  --verde:#006652;
+  --verde2:#004d3d;
+  --verdeclaro:#5BDC9E;
+  --amarelo:#FFC571;
+  --creme:#FBF6EC;
+  --verdemuitoclaro:#EAF7EE;
+  --texto:#0C2620;
+  --textosuave:#4D6A62;
+  --linha:rgba(0,102,82,.14);
+
+  /* Altura real do header sticky, usada pelo scroll-margin das âncoras */
+  --header-h:76px;
+
+  width:100vw;
+  max-width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  overflow-x:hidden;
+  overflow-x:clip;
+}
+
+/* Âncoras param abaixo do header, não atrás dele */
+.ucv-wrap section[id],
+.ucv-wrap footer[id]{
+  scroll-margin-top:calc(var(--header-h) + 8px);
+}
+
+/* =========================
+   HEADER
+========================= */
+.ucv-header{
+  position:sticky;
+  top:0;
+  z-index:9999;
+  width:100vw;
+  max-width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  overflow:visible;
+  background:#006652;
+  border-bottom:1px solid rgba(0,0,0,.14);
+}
+
+.ucv-header-inner{
+  position:relative;
+  z-index:10000;
+  width:100%;
+  max-width:1320px;
+  margin:0 auto;
+  padding:16px clamp(16px,3vw,32px);
+  min-height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:nowrap;
+  overflow:visible;
+}
+
+.ucv-logo{height:38px;width:auto;object-fit:contain;display:block}
+
+.ucv-nav{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex:1 1 auto;
+  justify-content:center;
+  min-width:0;
+}
+
+.ucv-nav a{
+  display:inline-flex;
+  align-items:center;
+  min-height:38px;
+  padding:9px 12px;
+  border-radius:999px;
+  color:rgba(255,255,255,.88);
+  font-size:13px;
+  font-weight:750;
+  white-space:nowrap;
+  transition:background .2s ease,color .2s ease,transform .2s ease;
+}
+
+.ucv-nav a:hover,
+.ucv-nav a:focus-visible{
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  transform:translateY(-1px);
+}
+
+.ucv-header-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  min-height:44px;
+  padding:11px 20px;
+  border-radius:999px;
+  background:#FFC571;
+  color:#004d3d;
+  font-size:13.5px;
+  font-weight:800;
+  white-space:nowrap;
+}
+
+.ucv-header-cta:hover{background:#ffd896;color:#004d3d}
+
+.ucv-menu-btn{display:none}
+
+/* O hambúrguer vira X quando o menu está aberto */
+.ucv-menu-btn span{transition:transform .25s ease,opacity .2s ease}
+.ucv-menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ucv-menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.ucv-menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Menu mobile fica fora do fluxo no desktop */
+.ucv-mobile-nav{display:none}
+
+/* Foco visível no teclado */
+.ucv-wrap a:focus-visible,
+.ucv-wrap button:focus-visible{
+  outline:3px solid #FFC571;
+  outline-offset:3px;
+  border-radius:6px;
+}
+
+/* Anel branco no botão amarelo: um anel amarelo sumiria dentro do próprio
+   preenchimento do botão */
+.ucv-header-cta:focus-visible{outline-color:#fff}
+
+/* =========================
+   HERO
+========================= */
+.ucv-hero{
+  position:relative;
+  overflow:hidden;
+  padding:clamp(56px,9vw,110px) 32px clamp(60px,8vw,96px);
+  background:
+    radial-gradient(circle at 86% 10%,rgba(91,220,158,.24),transparent 34%),
+    radial-gradient(circle at 8% 92%,rgba(255,197,113,.24),transparent 34%),
+    #FBF6EC;
+}
+
+.ucv-hero-inner{
+  max-width:900px;
+  margin:0 auto;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.ucv-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  color:#006652;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+
+.ucv-hero h1{
+  max-width:880px;
+  margin:18px 0 22px;
+  font-size:clamp(36px,5.8vw,68px);
+  line-height:1.04;
+  font-weight:900;
+  letter-spacing:-.035em;
+  color:#006652;
+}
+
+.ucv-highlight{position:relative;z-index:1}
+.ucv-highlight::after{
+  content:"";
+  position:absolute;
+  left:4%;
+  right:4%;
+  bottom:.04em;
+  height:.18em;
+  border-radius:999px;
+  background:#FFC571;
+  opacity:.55;
+  z-index:-1;
+}
+
+.ucv-hero p{
+  max-width:640px;
+  margin:0 0 30px;
+  font-size:clamp(16px,1.8vw,19px);
+  line-height:1.65;
+  color:#4D6A62;
+}
+
+.ucv-actions{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  flex-wrap:wrap;
+  width:100%;
+}
+
+.ucv-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-height:52px;
+  padding:15px 30px;
+  border-radius:999px;
+  font-size:15px;
+  font-weight:800;
+}
+
+.ucv-btn-primary{
+  background:#006652;
+  color:#fff;
+  box-shadow:0 14px 30px -16px rgba(0,102,82,.65);
+}
+
+.ucv-btn-primary:hover{background:#004d3d;color:#fff}
+
+.ucv-btn-secondary{
+  background:transparent;
+  color:#006652;
+  border:1.5px solid rgba(0,102,82,.28);
+}
+
+.ucv-btn-secondary:hover{background:rgba(0,102,82,.06);color:#006652}
+
+.ucv-strip{
+  padding:26px 32px;
+  background:#006652;
+}
+
+.ucv-strip-inner{
+  max-width:1180px;
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:14px 28px;
+}
+
+.ucv-strip-item{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  color:rgba(255,255,255,.92);
+  font-size:13.5px;
+  font-weight:800;
+  text-align:center;
+}
+
+.ucv-strip-item svg{color:#FFC571;flex:none}
+
+.ucv-strip-item a{color:inherit;text-decoration:underline}
+
+.ucv-areas{
+  padding:88px 32px;
+  background:linear-gradient(160deg,#004d3d 0%,#00312e 100%);
+}
+
+.ucv-container{max-width:1180px;margin:0 auto}
+
+.ucv-section-head{
+  max-width:680px;
+  margin:0 auto 44px;
+  text-align:center;
+}
+
+.ucv-section-head .ucv-eyebrow{color:#5BDC9E}
+
+.ucv-section-head h2{
+  margin:14px 0 0;
+  font-size:clamp(30px,3.6vw,46px);
+  font-weight:900;
+  letter-spacing:-.035em;
+  line-height:1.08;
+  text-wrap:balance;
+}
+
+.ucv-areas h2{color:#fff}
+
+.ucv-section-head p{
+  margin:14px 0 0;
+  font-size:17px;
+  line-height:1.65;
+  color:#4D6A62;
+}
+
+.ucv-areas .ucv-section-head p{color:rgba(255,255,255,.82)}
+
+.ucv-cards{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+}
+
+.ucv-card{
+  display:flex;
+  min-width:0;
+  min-height:250px;
+  padding:24px;
+  flex-direction:column;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:20px;
+  background:#fff;
+  box-shadow:0 18px 40px rgba(0,25,22,.18);
+}
+
+.ucv-card-icon{
+  display:grid;
+  place-items:center;
+  width:52px;
+  height:52px;
+  margin-bottom:18px;
+  border-radius:14px;
+  background:#EAF7EE;
+  color:#006652;
+}
+
+.ucv-card h3{
+  margin:0 0 8px;
+  color:#006652;
+  font-size:20px;
+  font-weight:900;
+  letter-spacing:-.02em;
+  line-height:1.12;
+}
+
+.ucv-card p{
+  margin:0 0 18px;
+  color:#4D6A62;
+  font-size:13.5px;
+  line-height:1.5;
+}
+
+.ucv-card-count{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  margin-top:auto;
+  padding:15px 0;
+  border-top:1px solid #D7E8E4;
+  color:#4D6A62;
+  font-size:12.5px;
+  font-weight:800;
+}
+
+.ucv-card-btn{
+  width:100%;
+  min-height:44px;
+  padding:10px 16px;
+  border:1.5px solid #006652;
+  border-radius:10px;
+  background:#fff;
+  color:#006652;
+  font-size:13.5px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.ucv-card-btn:hover{background:#006652;color:#fff}
+
+.ucv-sobre{
+  padding:96px 32px 84px;
+  background:#FBF6EC;
+  overflow:hidden;
+}
+
+.ucv-sobre .ucv-section-head h2{color:#006652}
+
+.ucv-text{
+  width:100%;
+  max-width:860px;
+  margin:0 auto;
+}
+
+.ucv-text p{
+  margin:0;
+  color:#0C2620;
+  font-size:17px;
+  line-height:1.78;
+  text-align:justify;
+}
+
+.ucv-text p+p{margin-top:18px}
+
+.ucv-text .ucv-strong{
+  margin-top:30px;
+  color:#006652;
+  font-weight:800;
+}
+
+.ucv-stats{
+  width:100%;
+  margin:48px auto 0;
+  padding:16px;
+  border-radius:22px;
+  background:#006652;
+  color:#fff;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  box-shadow:0 20px 42px -26px rgba(0,77,61,.72);
+}
+
+.ucv-stat{
+  display:grid;
+  grid-template-columns:44px minmax(0,1fr);
+  align-items:center;
+  column-gap:14px;
+  min-height:82px;
+  padding:12px 16px;
+}
+
+.ucv-stat-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  border:1px solid rgba(255,255,255,.42);
+  border-radius:12px;
+  background:rgba(255,255,255,.08);
+}
+
+.ucv-stat strong{
+  display:block;
+  color:#fff;
+  font-size:16px;
+  font-weight:900;
+  line-height:1.18;
+}
+
+.ucv-stat small{
+  display:block;
+  margin-top:3px;
+  color:rgba(255,255,255,.8);
+  font-size:11px;
+  line-height:1.28;
+}
+
+.ucv-estrutura{
+  padding:88px 32px;
+  background:#EAF7EE;
+}
+
+.ucv-gallery{
+  position:relative;
+  border-radius:24px;
+  overflow:hidden;
+  background:#0C2620;
+  box-shadow:0 24px 60px -30px rgba(0,50,40,.6);
+}
+
+.ucv-gallery-viewport{
+  position:relative;
+  width:100%;
+  aspect-ratio:16/10;
+  overflow:hidden;
+}
+
+.ucv-gallery-track{
+  display:flex;
+  height:100%;
+  transition:transform .45s cubic-bezier(.16,1,.3,1);
+}
+
+.ucv-gallery-slide{
+  flex:0 0 100%;
+  width:100%;
+  height:100%;
+}
+
+.ucv-gallery-slide img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.ucv-gallery-caption{
+  position:absolute;
+  inset:auto 0 0 0;
+  padding:56px 24px 20px;
+  background:linear-gradient(to top,rgba(6,28,23,.86),rgba(6,28,23,0));
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+}
+
+.ucv-gallery-caption span{
+  color:#fff;
+  font-size:15px;
+  font-weight:800;
+  line-height:1.4;
+  text-shadow:0 1px 3px rgba(0,0,0,.5);
+}
+
+.ucv-gallery-counter{
+  flex:none;
+  opacity:.85;
+}
+
+.ucv-gallery-arrow{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  z-index:3;
+  display:grid;
+  place-items:center;
+  width:48px;
+  height:48px;
+  border:0;
+  border-radius:50%;
+  background:rgba(255,255,255,.92);
+  color:#006652;
+  cursor:pointer;
+  box-shadow:0 8px 20px -8px rgba(0,0,0,.5);
+}
+
+.ucv-gallery-arrow:hover{background:#fff}
+
+.ucv-gallery-prev{left:14px}
+.ucv-gallery-next{right:14px}
+
+.ucv-gallery-dots{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  margin-top:22px;
+}
+
+.ucv-gallery-dot{
+  width:9px;
+  height:9px;
+  padding:0;
+  border:0;
+  border-radius:999px;
+  cursor:pointer;
+  background:rgba(0,102,82,.26);
+  transition:width .25s ease,background .25s ease;
+}
+
+.ucv-gallery-dot.active{
+  width:26px;
+  background:#006652;
+}
+
+.ucv-localizacao{
+  position:relative;
+  padding:88px 32px;
+  background:#fff;
+  overflow:hidden;
+}
+
+.ucv-location-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:22px;
+  align-items:stretch;
+}
+
+.ucv-map-card{
+  position:relative;
+  padding:14px;
+  border-radius:26px;
+  background:#fff;
+  border:1px solid rgba(0,102,82,.14);
+  overflow:hidden;
+}
+
+.ucv-map{
+  position:relative;
+  z-index:1;
+  width:100%;
+  height:340px;
+  border-radius:18px;
+  overflow:hidden;
+  background:#F1ECE4;
+}
+
+.ucv-map iframe{
+  display:block;
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+.ucv-address{
+  position:relative;
+  z-index:1;
+  margin-top:14px;
+  padding:18px 20px;
+  border-radius:16px;
+  background:#006652;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.ucv-address-icon{
+  flex:none;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(255,255,255,.12);
+  color:#FFC571;
+}
+
+.ucv-address-text{
+  flex:1 1 180px;
+  min-width:0;
+}
+
+.ucv-address-text strong{
+  display:block;
+  font-size:14px;
+  font-weight:800;
+}
+
+.ucv-address-text span{
+  display:block;
+  font-size:12.5px;
+  color:rgba(255,255,255,.78);
+}
+
+.ucv-map-link{
+  flex:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:11px 18px;
+  border-radius:999px;
+  background:#FFC571;
+  color:#004d3d;
+  font-size:12.5px;
+  font-weight:800;
+}
+
+.ucv-map-link:hover{background:#ffd896;color:#004d3d}
+
+.ucv-benefits{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.ucv-benefit{
+  padding:20px 22px;
+  border-radius:18px;
+  background:#fff;
+  border:1px solid rgba(0,102,82,.14);
+  display:flex;
+  align-items:flex-start;
+  gap:14px;
+}
+
+.ucv-benefit svg{flex:none;color:#006652;margin-top:2px}
+
+.ucv-benefit h4{
+  margin:0 0 4px;
+  font-size:15.5px;
+  font-weight:800;
+  color:#006652;
+  letter-spacing:-.01em;
+}
+
+.ucv-benefit p{
+  margin:0;
+  font-size:13.5px;
+  line-height:1.6;
+  color:#4D6A62;
+}
+
+.ucv-footer{
+  padding:52px 32px 22px;
+  background:#004d3d;
+  color:rgba(255,255,255,.72);
+}
+
+.ucv-footer-grid{
+  max-width:1180px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:32px;
+  padding-bottom:32px;
+  border-bottom:1px solid rgba(255,255,255,.14);
+}
+
+.ucv-footer-logo{
+  height:42px;
+  width:auto;
+  object-fit:contain;
+  margin-bottom:12px;
+  display:block;
+}
+
+.ucv-footer h3{
+  margin:0 0 12px;
+  color:#5BDC9E;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.ucv-footer p{
+  margin:0;
+  color:rgba(255,255,255,.68);
+  font-size:13.5px;
+  line-height:1.6;
+}
+
+.ucv-footer a{
+  color:rgba(255,255,255,.8);
+  font-size:13.5px;
+  font-weight:700;
+  line-height:1.6;
+}
+
+.ucv-footer a:hover{color:#FFC571}
+
+.ucv-footer-link{display:block;margin-top:8px}
+
+.ucv-footer-bottom{
+  margin:22px 0 0;
+  text-align:center;
+  color:rgba(255,255,255,.5);
+  font-size:12px;
+}
+
+/* =========================
+   RESPONSIVO — NAVBAR (troca em 1023px)
+========================= */
+@media (max-width:1023px){
+  .ucv-nav,
+  .ucv-header-cta{display:none}
+
+  .ucv-menu-btn{
+    display:flex;
+    position:relative;
+    z-index:10002;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    width:44px;
+    height:44px;
+    padding:0;
+    margin-left:auto;
+    border:1px solid rgba(255,255,255,.22);
+    border-radius:12px;
+    background:rgba(255,255,255,.08);
+    color:#fff;
+    cursor:pointer;
+    pointer-events:auto;
+    touch-action:manipulation;
+    -webkit-tap-highlight-color:transparent;
+  }
+
+  .ucv-mobile-nav{
+    display:flex;
+    position:absolute;
+    top:calc(100% + 10px);
+    right:clamp(16px,3vw,32px);
+    z-index:10001;
+    width:min(300px,calc(100vw - 40px));
+    flex-direction:column;
+    align-items:stretch;
+    gap:6px;
+    padding:12px;
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:18px;
+    background:#004d3d;
+    box-shadow:0 22px 50px rgba(0,0,0,.26);
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+    transform:translateY(-8px) scale(.98);
+    transform-origin:top right;
+    transition:opacity .2s ease,transform .2s ease,visibility .2s ease;
+  }
+
+  .ucv-mobile-nav.open{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+    transform:translateY(0) scale(1);
+  }
+
+  .ucv-mobile-nav a{
+    display:inline-flex;
+    align-items:center;
+    width:100%;
+    min-height:44px;
+    padding:11px 14px;
+    border-radius:12px;
+    color:rgba(255,255,255,.88);
+    font-size:14px;
+    font-weight:750;
+  }
+
+  .ucv-mobile-nav a:hover{background:rgba(255,255,255,.12);color:#fff}
+
+  .ucv-mobile-nav .mobile-wa{
+    margin-top:4px;
+    background:#FFC571;
+    color:#004d3d;
+  }
+
+  .ucv-mobile-nav .mobile-wa:hover{background:#ffd896;color:#004d3d}
+}
+
+/* =========================
+   RESPONSIVO — GRIDS
+========================= */
+@media (max-width:980px){
+  .ucv-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ucv-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ucv-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ucv-location-grid{grid-template-columns:1fr}
+}
+
+@media (max-width:640px){
+  .ucv-wrap{--header-h:68px}
+  .ucv-header-inner{padding:14px 16px;min-height:68px}
+  .ucv-logo{height:35px}
+  .ucv-menu-btn{width:42px;height:42px}
+  .ucv-hero,.ucv-areas,.ucv-sobre,.ucv-estrutura,.ucv-localizacao,.ucv-footer{padding-left:15px;padding-right:15px}
+  .ucv-strip{padding-left:15px;padding-right:15px}
+  .ucv-cards{grid-template-columns:1fr}
+  .ucv-stats{grid-template-columns:1fr}
+  .ucv-footer-grid{grid-template-columns:1fr}
+  .ucv-gallery-viewport{aspect-ratio:4/3}
+  .ucv-gallery-caption{padding:48px 18px 16px}
+  .ucv-gallery-caption span{font-size:13px}
+  .ucv-gallery-arrow{width:42px;height:42px}
+  .ucv-gallery-prev{left:9px}
+  .ucv-gallery-next{right:9px}
+  .ucv-map{height:300px}
+  .ucv-mobile-nav{right:16px;width:calc(100vw - 32px)}
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .ucv-gallery-track{transition:none}
+  .ucv-mobile-nav{transition:none}
+  .ucv-nav a{transition:none}
+  .ucv-menu-btn span{transition:none}
+}
+
+/* =========================
+   CATÁLOGO DE CURSOS — MODAIS
+   Cores literais (não usam as variáveis de .ucv-wrap) porque os modais
+   ficam fora do wrapper, para não serem cortados pelo overflow-x:clip.
+========================= */
+body.ucv-modal-open{overflow:hidden}
+
+.ucv-sr-only{
+  position:absolute;
+  width:1px;
+  height:1px;
+  padding:0;
+  margin:-1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  white-space:nowrap;
+  border:0;
+}
+
+.ucv-modal{
+  position:fixed;
+  inset:0;
+  z-index:99999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:28px;
+  font-family:'Rethink Sans',Helvetica,Arial,sans-serif;
+}
+
+.ucv-modal[hidden]{display:none}
+
+.ucv-modal-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(7,32,27,.58);
+  backdrop-filter:blur(3px);
+}
+
+.ucv-modal-dialog{
+  position:relative;
+  z-index:1;
+  width:min(1180px,calc(100vw - 56px));
+  max-height:calc(100svh - 56px);
+  overflow:hidden;
+  border:1px solid rgba(0,102,82,.16);
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 28px 80px rgba(0,35,28,.28);
+  opacity:0;
+  transform:translateY(18px) scale(.985);
+  transition:opacity .22s ease,transform .22s ease;
+}
+
+.ucv-modal.ucv-modal-visible .ucv-modal-dialog{
+  opacity:1;
+  transform:none;
+}
+
+.ucv-modal-close{
+  position:absolute;
+  z-index:4;
+  top:16px;
+  right:16px;
+  display:grid;
+  place-items:center;
+  width:42px;
+  height:42px;
+  padding:0;
+  border:1px solid #D7E8E4;
+  border-radius:50%;
+  background:#fff;
+  color:#006652;
+  font-size:25px;
+  line-height:1;
+  cursor:pointer;
+}
+
+.ucv-modal-close:hover{background:#EAF7EE}
+
+.ucv-modal-scroll{
+  max-height:calc(100svh - 56px);
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+
+.ucv-modal-body{padding:44px 34px 30px}
+
+.ucv-modal-head{
+  max-width:680px;
+  margin:0 auto 26px;
+  padding:0 46px;
+  text-align:center;
+}
+
+.ucv-modal-head h2{
+  margin:14px 0 0;
+  color:#006652;
+  font-size:clamp(26px,3vw,38px);
+  font-weight:900;
+  letter-spacing:-.035em;
+  line-height:1.08;
+}
+
+.ucv-modal-head p{
+  margin:12px 0 0;
+  color:#4D6A62;
+  font-size:16px;
+  line-height:1.6;
+}
+
+.ucv-controls{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+  margin-bottom:26px;
+}
+
+.ucv-search{
+  position:relative;
+  width:100%;
+  max-width:560px;
+}
+
+.ucv-search svg{
+  position:absolute;
+  left:18px;
+  top:50%;
+  transform:translateY(-50%);
+  width:18px;
+  height:18px;
+  color:#4D6A62;
+  pointer-events:none;
+}
+
+.ucv-search input{
+  width:100%;
+  min-height:52px;
+  padding:0 46px;
+  border:1.5px solid rgba(0,102,82,.34);
+  border-radius:999px;
+  background:#fff;
+  color:#0C2620;
+  font-family:inherit;
+  font-size:15px;
+  font-weight:600;
+  outline:none;
+}
+
+.ucv-search input::placeholder{color:#4D6A62;opacity:.85}
+
+.ucv-search input:focus{
+  border-color:#006652;
+  box-shadow:0 0 0 4px rgba(0,102,82,.10);
+}
+
+.ucv-search-clear{
+  position:absolute;
+  right:8px;
+  top:50%;
+  transform:translateY(-50%);
+  width:36px;
+  height:36px;
+  border:0;
+  border-radius:50%;
+  background:rgba(0,102,82,.08);
+  color:#006652;
+  font-size:18px;
+  line-height:1;
+  cursor:pointer;
+  display:none;
+  align-items:center;
+  justify-content:center;
+}
+
+.ucv-search-clear.ucv-show{display:flex}
+
+.ucv-filters{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:9px;
+  width:100%;
+}
+
+.ucv-filter-btn{
+  min-height:40px;
+  padding:9px 18px;
+  border:1.5px solid rgba(0,102,82,.4);
+  border-radius:999px;
+  background:#fff;
+  color:#004d3d;
+  font-family:inherit;
+  font-size:13.5px;
+  font-weight:800;
+  cursor:pointer;
+  transition:background .2s ease,color .2s ease,border-color .2s ease;
+}
+
+.ucv-filter-btn:hover{background:rgba(0,102,82,.08)}
+
+.ucv-filter-btn[aria-pressed="true"]{
+  background:#006652;
+  border-color:#006652;
+  color:#fff;
+}
+
+.ucv-meta{
+  margin:0 0 18px;
+  color:#4D6A62;
+  font-size:13.5px;
+  font-weight:700;
+}
+
+.ucv-groups{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.ucv-group{
+  border:1.5px solid rgba(0,102,82,.22);
+  border-radius:20px;
+  background:#fff;
+  overflow:hidden;
+}
+
+.ucv-group[hidden]{display:none}
+
+.ucv-group summary{
+  list-style:none;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:20px 24px;
+  color:#004d3d;
+  font-size:16.5px;
+  font-weight:900;
+  letter-spacing:-.01em;
+  transition:background .2s ease;
+}
+
+.ucv-group summary::-webkit-details-marker{display:none}
+
+.ucv-group summary:focus-visible{
+  outline:3px solid #FFC571;
+  outline-offset:-3px;
+}
+
+.ucv-group[open] summary{
+  background:#EAF7EE;
+  border-left:4px solid #006652;
+  padding-left:20px;
+}
+
+.ucv-group-head{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+}
+
+.ucv-group-count{
+  flex:none;
+  padding:3px 12px;
+  border-radius:999px;
+  background:#006652;
+  color:#fff;
+  font-size:12.5px;
+  font-weight:800;
+}
+
+.ucv-group-chevron{
+  flex:none;
+  width:20px;
+  height:20px;
+  color:#4D6A62;
+  transition:transform .2s ease;
+}
+
+.ucv-group[open] .ucv-group-chevron{
+  transform:rotate(180deg);
+  color:#006652;
+}
+
+.ucv-group-wrap{
+  padding:0 24px 24px;
+  border-top:1.5px solid rgba(0,102,82,.16);
+}
+
+/* Multi-column em vez de grid: a divisória vertical nativa acompanha os
+   itens escondidos pela busca sem desalinhar. */
+.ucv-course-list{
+  margin:18px 0 0;
+  padding:0;
+  list-style:none;
+  column-count:1;
+  column-gap:28px;
+}
+
+@media (min-width:700px){
+  .ucv-course-list{
+    column-count:2;
+    column-rule:1px solid rgba(0,102,82,.16);
+  }
+}
+
+.ucv-course{
+  break-inside:avoid;
+  padding:12px 4px;
+  border-bottom:1px solid rgba(0,102,82,.22);
+  color:#081813;
+  font-size:14px;
+  font-weight:700;
+  line-height:1.4;
+  overflow-wrap:break-word;
+}
+
+.ucv-course:nth-child(even){background:rgba(0,102,82,.03)}
+
+@media (hover:hover){
+  .ucv-course:hover{background:rgba(0,102,82,.07)}
+}
+
+.ucv-course[hidden]{display:none}
+
+.ucv-course-dur{
+  display:inline-block;
+  color:#4D6A62;
+  font-size:12.5px;
+  font-weight:600;
+}
+
+.ucv-course-interest{
+  display:inline-flex;
+  align-items:center;
+  margin:6px 0 0 8px;
+  color:#006652;
+  font-size:11.5px;
+  font-weight:900;
+  text-decoration:none;
+}
+
+.ucv-course-interest:hover{color:#004d3d;text-decoration:underline}
+
+.ucv-empty{
+  display:none;
+  margin:0;
+  padding:44px 24px;
+  border:1px dashed rgba(0,102,82,.28);
+  border-radius:20px;
+  background:#fff;
+  color:#4D6A62;
+  font-size:15px;
+  font-weight:700;
+  text-align:center;
+}
+
+.ucv-empty.ucv-show{display:block}
+
+.ucv-modal-foot{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin-top:28px;
+  padding:24px 26px;
+  border-radius:20px;
+  background:linear-gradient(135deg,#006652,#004d3d);
+}
+
+.ucv-modal-foot p{
+  margin:0;
+  max-width:440px;
+  color:rgba(255,255,255,.9);
+  font-size:15px;
+  font-weight:700;
+}
+
+.ucv-modal-foot .ucv-btn{
+  background:#FFC571;
+  color:#004d3d;
+  box-shadow:none;
+}
+
+.ucv-modal-foot .ucv-btn:hover{background:#ffd896;color:#004d3d}
+
+@media (max-width:760px){
+  .ucv-modal{padding:16px}
+  .ucv-modal-dialog{
+    width:calc(100vw - 32px);
+    max-height:calc(100svh - 32px);
+    border-radius:20px;
+  }
+  .ucv-modal-scroll{max-height:calc(100svh - 32px)}
+  .ucv-modal-body{padding:34px 18px 24px}
+  .ucv-modal-head{
+    padding:0 40px 0 0;
+    text-align:left;
+  }
+  .ucv-filters{justify-content:flex-start}
+  .ucv-group summary{padding:16px 18px;font-size:15px}
+  .ucv-group[open] summary{padding-left:14px}
+  .ucv-group-wrap{padding:0 18px 18px}
+  .ucv-modal-foot{
+    flex-direction:column;
+    align-items:stretch;
+    text-align:center;
+  }
+  .ucv-modal-foot p{max-width:none}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .ucv-modal-dialog{transition:none}
+}
+
+</style>
+</head>
+
+<body>
+<div class="ucv-wrap">
+
+<header class="ucv-header">
+  <div class="ucv-header-inner">
+    <a href="#inicio" aria-label="Ir para o início">
+      <img class="ucv-logo" src="https://unicive.com/wp-content/uploads/2026/07/IMAGOTIPO-HORIZONTAL-2-5.png" alt="UNICIVE">
+    </a>
+
+    <nav class="ucv-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#areas">Cursos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="ucv-header-cta" id="ctaHeaderWhatsapp" href="#" target="_blank" rel="noopener noreferrer">
+      WhatsApp
+    </a>
+
+    <button class="ucv-menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="ucvMobileNav" id="ucvMenuButton">
+      <span style="display:block;width:20px;height:2px;border-radius:999px;background:currentColor;"></span>
+      <span style="display:block;width:20px;height:2px;border-radius:999px;background:currentColor;"></span>
+      <span style="display:block;width:20px;height:2px;border-radius:999px;background:currentColor;"></span>
+    </button>
+
+    <nav class="ucv-mobile-nav" id="ucvMobileNav" aria-label="Navegação mobile">
+      <a href="#inicio">Início</a>
+      <a href="#areas">Cursos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+      <a class="mobile-wa" id="ctaMobileWhatsapp" href="#" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<section id="inicio" class="ucv-hero">
+  <div class="ucv-hero-inner">
+    <span class="ucv-eyebrow" id="heroEyebrow"></span>
+
+    <h1 id="heroTitulo"></h1>
+
+    <p id="heroParagrafo"></p>
+
+    <div class="ucv-actions">
+      <a class="ucv-btn ucv-btn-primary" id="ctaHeroWhatsapp" href="#" target="_blank" rel="noopener noreferrer">
+        Falar agora no WhatsApp
+      </a>
+      <a class="ucv-btn ucv-btn-secondary" href="#areas">Ver áreas de curso</a>
+    </div>
+  </div>
+</section>
+
+<section class="ucv-strip">
+  <div class="ucv-strip-inner">
+    <span class="ucv-strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17"><path d="M12 2l2.4 6.5L21 9l-5 4.6L17.4 21 12 17.3 6.6 21 8 13.6 3 9l6.6-.5z"/></svg>
+      Polo de Apoio Presencial do UNICIVE
+    </span>
+    <span class="ucv-strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17"><path d="M12 2 3 7l9 5 9-5-9-5zM3 12l9 5 9-5M3 17l9 5 9-5"/></svg>
+      <a id="linkEmecStrip" href="#" target="_blank" rel="noopener">Consultar registro no e-MEC</a>
+    </span>
+    <span class="ucv-strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17"><path d="M12 21s-7-6.3-7-11.5A7 7 0 0 1 19 9.5C19 14.7 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+      <span id="enderecoResumoStrip"></span>
+    </span>
+  </div>
+</section>
+
+<section id="areas" class="ucv-areas">
+  <div class="ucv-container">
+    <div class="ucv-section-head">
+      <span class="ucv-eyebrow">Formações para cada objetivo</span>
+      <h2>Encontre o curso ideal para o seu próximo passo</h2>
+      <p>Escolha o tipo de formação e fale com um consultor para conhecer os cursos disponíveis.</p>
+    </div>
+
+    <div class="ucv-cards">
+      <article class="ucv-card">
+        <span class="ucv-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="29" height="29"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/><path d="M22 10v6"/></svg>
+        </span>
+        <h3>Graduação</h3>
+        <p>Bacharelados, licenciaturas e tecnólogos para começar sua formação.</p>
+        <span class="ucv-card-count">116 cursos</span>
+        <button type="button" class="ucv-card-btn" data-modal-target="ucvModalGraduacao">Ver cursos</button>
+      </article>
+
+      <article class="ucv-card">
+        <span class="ucv-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="29" height="29"><path d="M4 18h8a6 6 0 0 0 6-6V3"/><polyline points="14 7 18 3 22 7"/></svg>
+        </span>
+        <h3>Pós-graduação</h3>
+        <p>Especializações para aprofundar conhecimentos e avançar na carreira.</p>
+        <span class="ucv-card-count">401 cursos</span>
+        <button type="button" class="ucv-card-btn" data-modal-target="ucvModalPos">Ver cursos</button>
+      </article>
+
+      <article class="ucv-card">
+        <span class="ucv-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="29" height="29"><circle cx="12" cy="8" r="6"/><path d="M8.5 13 7 22l5-3 5 3-1.5-9"/></svg>
+        </span>
+        <h3>Aperfeiçoamento</h3>
+        <p>Formações para ampliar conhecimentos em diferentes áreas.</p>
+        <span class="ucv-card-count">102 cursos</span>
+        <button type="button" class="ucv-card-btn" data-modal-target="ucvModalAperfeicoamento">Ver cursos</button>
+      </article>
+
+      <article class="ucv-card">
+        <span class="ucv-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="29" height="29"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M3 12h18M10 12v2h4v-2"/></svg>
+        </span>
+        <h3>Profissionalizantes</h3>
+        <p>Capacitações práticas para desenvolver habilidades para o mercado.</p>
+        <span class="ucv-card-count">80 cursos</span>
+        <button type="button" class="ucv-card-btn" data-modal-target="ucvModalProfissionalizantes">Ver cursos</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="ucv-sobre">
+  <div class="ucv-container">
+    <div class="ucv-section-head">
+      <span class="ucv-eyebrow">História e proximidade</span>
+      <h2 id="sobreTitulo"></h2>
+    </div>
+
+    <div class="ucv-text" id="sobreTexto"></div>
+
+    <div class="ucv-stats">
+      <div class="ucv-stat">
+        <span class="ucv-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="23" height="23"><path d="M12 2l2.4 6.5L21 9l-5 4.6L17.4 21 12 17.3 6.6 21 8 13.6 3 9l6.6-.5z"/></svg></span>
+        <span><strong>Semipresencial</strong><small>modalidade ofertada neste polo</small></span>
+      </div>
+      <div class="ucv-stat">
+        <span class="ucv-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="23" height="23"><path d="M12 2 3 7l9 5 9-5-9-5zM3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+        <span><strong>Registro no e-MEC</strong><small>instituição com cadastro consultável</small></span>
+      </div>
+      <div class="ucv-stat">
+        <span class="ucv-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="23" height="23"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v6h6"/></svg></span>
+        <span><strong id="statCursosTitulo"></strong><small id="statCursosSub"></small></span>
+      </div>
+      <div class="ucv-stat">
+        <span class="ucv-stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="23" height="23"><path d="M12 21s-7-6.3-7-11.5A7 7 0 0 1 19 9.5C19 14.7 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+        <span><strong id="statPoloTitulo"></strong><small id="statPoloSub"></small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="estrutura" class="ucv-estrutura">
+  <div class="ucv-container">
+    <div class="ucv-section-head">
+      <span class="ucv-eyebrow" style="color:#006652">Conheça o polo</span>
+      <h2 style="color:#006652">A estrutura que espera por você</h2>
+      <p>Salas de aula, laboratórios de informática e de práticas da saúde, secretaria e espaços de convivência.</p>
+    </div>
+
+    <div class="ucv-gallery">
+      <div class="ucv-gallery-viewport">
+        <div class="ucv-gallery-track" id="ucvGalleryTrack"></div>
+
+        <div class="ucv-gallery-caption">
+          <span id="ucvGalleryCaption">Fachada</span>
+          <span class="ucv-gallery-counter" id="ucvGalleryCounter">1/4</span>
+        </div>
+
+        <button class="ucv-gallery-arrow ucv-gallery-prev" type="button" id="ucvGalleryPrev" aria-label="Foto anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <button class="ucv-gallery-arrow ucv-gallery-next" type="button" id="ucvGalleryNext" aria-label="Próxima foto">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="ucv-gallery-dots" id="ucvGalleryDots" aria-label="Navegação das fotos"></div>
+  </div>
+</section>
+
+<section id="localizacao" class="ucv-localizacao">
+  <div class="ucv-container">
+    <div class="ucv-section-head">
+      <span class="ucv-eyebrow" style="color:#006652">Onde estamos</span>
+      <h2 style="color:#006652" id="localizacaoTitulo"></h2>
+      <p id="localizacaoParagrafo"></p>
+    </div>
+
+    <div class="ucv-location-grid">
+      <div class="ucv-map-card">
+        <div class="ucv-map">
+          <iframe id="mapaIframe" title="Mapa do polo" src="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="ucv-address">
+          <span class="ucv-address-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 21s-7-6.3-7-11.5A7 7 0 0 1 19 9.5C19 14.7 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          </span>
+          <span class="ucv-address-text">
+            <strong id="mapaEnderecoNome"></strong>
+            <span id="mapaEnderecoTexto"></span>
+          </span>
+          <a class="ucv-map-link" id="linkComoChegar" href="#" target="_blank" rel="noopener noreferrer">Como chegar</a>
+        </div>
+      </div>
+
+      <div class="ucv-benefits">
+        <div class="ucv-benefit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/></svg>
+          <div>
+            <h4>Atendimento próximo</h4>
+            <p>Suporte acadêmico e administrativo presencial durante toda a trajetória universitária.</p>
+          </div>
+        </div>
+
+        <div class="ucv-benefit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>
+          <div>
+            <h4>Sem sair da cidade</h4>
+            <p>Formação superior sem a necessidade de se deslocar para grandes centros urbanos.</p>
+          </div>
+        </div>
+
+        <div class="ucv-benefit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v6h6M9 13h6M9 17h6"/></svg>
+          <div>
+            <h4>Apoio em cada etapa</h4>
+            <p>Matrículas, avaliações, estágios, atividades acadêmicas e documentação institucional.</p>
+          </div>
+        </div>
+
+        <div class="ucv-benefit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+          <div>
+            <h4>Catálogo amplo</h4>
+            <p>Graduação, pós-graduação, aperfeiçoamento e cursos profissionalizantes no mesmo lugar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contato" class="ucv-footer">
+  <div class="ucv-footer-grid">
+    <div>
+      <img class="ucv-footer-logo" src="https://unicive.com/wp-content/uploads/2026/07/IMAGOTIPO-HORIZONTAL-2-5.png" alt="UNICIVE">
+      <p id="footerDescricao"></p>
+    </div>
+
+    <div>
+      <h3>Navegue</h3>
+      <a href="#inicio">Início</a>
+      <a class="ucv-footer-link" href="#areas">Cursos</a>
+      <a class="ucv-footer-link" href="#sobre">Sobre o polo</a>
+      <a class="ucv-footer-link" href="#localizacao">Localização</a>
+    </div>
+
+    <div>
+      <h3>Endereço</h3>
+      <p id="footerEndereco"></p>
+      <a class="ucv-footer-link" id="footerLinkMapa" href="#" target="_blank" rel="noopener noreferrer">Ver no mapa</a>
+    </div>
+
+    <div>
+      <h3>Contato</h3>
+      <a id="footerWhatsapp" href="#" target="_blank" rel="noopener noreferrer"></a>
+      <a class="ucv-footer-link" id="footerEmail" href="#"></a>
+      <a class="ucv-footer-link" id="footerLinkEmec" href="#" target="_blank" rel="noopener noreferrer">Consultar registro no e-MEC</a>
+    </div>
+  </div>
+
+  <p class="ucv-footer-bottom" id="footerBottom"></p>
+</footer>
+
+</div>
+
+<div class="ucv-modal" id="ucvModalGraduacao" role="dialog" aria-modal="true" aria-label="Cursos de graduação" hidden>
+  <div class="ucv-modal-backdrop" data-modal-close></div>
+  <div class="ucv-modal-dialog">
+    <button type="button" class="ucv-modal-close" data-modal-close aria-label="Fechar cursos de graduação">&times;</button>
+    <div class="ucv-modal-scroll">
+      <div class="ucv-modal-body">
+
+        <div class="ucv-modal-head">
+          <span class="ucv-eyebrow">Graduação</span>
+          <h2>Encontre sua graduação</h2>
+          <p>Escolha a modalidade e encontre o curso ideal para o seu futuro.</p>
+        </div>
+
+        <div class="ucv-controls">
+          <div class="ucv-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <label for="grad-busca" class="ucv-sr-only">Buscar curso pelo nome</label>
+            <input type="search" id="grad-busca" placeholder="Busque pelo nome do curso" autocomplete="off">
+            <button type="button" class="ucv-search-clear" id="grad-limpar" aria-label="Limpar busca">&times;</button>
+          </div>
+          <div class="ucv-filters" role="group" aria-label="Filtrar por área"></div>
+        </div>
+
+        <p class="ucv-meta" id="grad-meta" aria-live="polite"></p>
+
+        <div class="ucv-groups" id="grad-grupos"></div>
+
+        <p class="ucv-empty" id="grad-vazio" role="status">Nenhum curso encontrado com esse termo. Tente outra busca ou fale com a gente pelo WhatsApp.</p>
+
+        <div class="ucv-modal-foot">
+          <p id="footTextoGrad">Não encontrou o que procura? Fale com um consultor.</p>
+          <a class="ucv-btn ucv-btn-primary" href="#" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ucv-modal" id="ucvModalPos" role="dialog" aria-modal="true" aria-label="Cursos de pós-graduação" hidden>
+  <div class="ucv-modal-backdrop" data-modal-close></div>
+  <div class="ucv-modal-dialog">
+    <button type="button" class="ucv-modal-close" data-modal-close aria-label="Fechar cursos de pós-graduação">&times;</button>
+    <div class="ucv-modal-scroll">
+      <div class="ucv-modal-body">
+
+        <div class="ucv-modal-head">
+          <span class="ucv-eyebrow">Pós-graduação</span>
+          <h2>Pós-graduação para o próximo passo da sua carreira</h2>
+          <p>Explore as especializações por área de conhecimento.</p>
+        </div>
+
+        <div class="ucv-controls">
+          <div class="ucv-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <label for="pos-busca" class="ucv-sr-only">Buscar curso pelo nome</label>
+            <input type="search" id="pos-busca" placeholder="Busque pelo nome do curso" autocomplete="off">
+            <button type="button" class="ucv-search-clear" id="pos-limpar" aria-label="Limpar busca">&times;</button>
+          </div>
+          <div class="ucv-filters" role="group" aria-label="Filtrar por área"></div>
+        </div>
+
+        <p class="ucv-meta" id="pos-meta" aria-live="polite"></p>
+
+        <div class="ucv-groups" id="pos-grupos"></div>
+
+        <p class="ucv-empty" id="pos-vazio" role="status">Nenhum curso encontrado com esse termo. Tente outra busca ou fale com a gente pelo WhatsApp.</p>
+
+        <div class="ucv-modal-foot">
+          <p id="footTextoPos">Não encontrou o que procura? Fale com um consultor.</p>
+          <a class="ucv-btn ucv-btn-primary" href="#" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ucv-modal" id="ucvModalAperfeicoamento" role="dialog" aria-modal="true" aria-label="Cursos de aperfeiçoamento" hidden>
+  <div class="ucv-modal-backdrop" data-modal-close></div>
+  <div class="ucv-modal-dialog">
+    <button type="button" class="ucv-modal-close" data-modal-close aria-label="Fechar cursos de aperfeiçoamento">&times;</button>
+    <div class="ucv-modal-scroll">
+      <div class="ucv-modal-body">
+
+        <div class="ucv-modal-head">
+          <span class="ucv-eyebrow">Aperfeiçoamento</span>
+          <h2>Cursos de aperfeiçoamento</h2>
+          <p>Formações para ampliar seus conhecimentos e fortalecer sua atuação.</p>
+        </div>
+
+        <div class="ucv-controls">
+          <div class="ucv-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <label for="aperf-busca" class="ucv-sr-only">Buscar curso pelo nome</label>
+            <input type="search" id="aperf-busca" placeholder="Busque pelo nome do curso" autocomplete="off">
+            <button type="button" class="ucv-search-clear" id="aperf-limpar" aria-label="Limpar busca">&times;</button>
+          </div>
+          <div class="ucv-filters" role="group" aria-label="Filtrar por área"></div>
+        </div>
+
+        <p class="ucv-meta" id="aperf-meta" aria-live="polite"></p>
+
+        <div class="ucv-groups" id="aperf-grupos"></div>
+
+        <p class="ucv-empty" id="aperf-vazio" role="status">Nenhum curso encontrado com esse termo. Tente outra busca ou fale com a gente pelo WhatsApp.</p>
+
+        <div class="ucv-modal-foot">
+          <p id="footTextoAperf">Não encontrou o que procura? Fale com um consultor.</p>
+          <a class="ucv-btn ucv-btn-primary" href="#" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ucv-modal" id="ucvModalProfissionalizantes" role="dialog" aria-modal="true" aria-label="Cursos profissionalizantes" hidden>
+  <div class="ucv-modal-backdrop" data-modal-close></div>
+  <div class="ucv-modal-dialog">
+    <button type="button" class="ucv-modal-close" data-modal-close aria-label="Fechar cursos profissionalizantes">&times;</button>
+    <div class="ucv-modal-scroll">
+      <div class="ucv-modal-body">
+
+        <div class="ucv-modal-head">
+          <span class="ucv-eyebrow">Profissionalizantes</span>
+          <h2>Cursos profissionalizantes</h2>
+          <p>Capacitações práticas para desenvolver habilidades valorizadas pelo mercado.</p>
+        </div>
+
+        <div class="ucv-controls">
+          <div class="ucv-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <label for="prof-busca" class="ucv-sr-only">Buscar curso pelo nome</label>
+            <input type="search" id="prof-busca" placeholder="Busque pelo nome do curso" autocomplete="off">
+            <button type="button" class="ucv-search-clear" id="prof-limpar" aria-label="Limpar busca">&times;</button>
+          </div>
+          <div class="ucv-filters" role="group" aria-label="Filtrar por área"></div>
+        </div>
+
+        <p class="ucv-meta" id="prof-meta" aria-live="polite"></p>
+
+        <div class="ucv-groups" id="prof-grupos"></div>
+
+        <p class="ucv-empty" id="prof-vazio" role="status">Nenhum curso encontrado com esse termo. Tente outra busca ou fale com a gente pelo WhatsApp.</p>
+
+        <div class="ucv-modal-foot">
+          <p id="footTextoProf">Não encontrou o que procura? Fale com um consultor.</p>
+          <a class="ucv-btn ucv-btn-primary" href="#" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  /* ---------- Menu mobile ---------- */
+  var menuButton = document.getElementById('ucvMenuButton');
+  var mobileNav = document.getElementById('ucvMobileNav');
+
+  if(menuButton && mobileNav){
+    function fecharMenu(){
+      mobileNav.classList.remove('open');
+      menuButton.setAttribute('aria-expanded','false');
+      menuButton.setAttribute('aria-label','Abrir menu');
+    }
+
+    menuButton.addEventListener('click',function(event){
+      event.stopPropagation();
+      var aberto = mobileNav.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+      menuButton.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
+    });
+
+    mobileNav.addEventListener('click',function(event){
+      event.stopPropagation();
+    });
+
+    mobileNav.querySelectorAll('a').forEach(function(link){
+      link.addEventListener('click',fecharMenu);
+    });
+
+    document.addEventListener('click',function(event){
+      if(!mobileNav.classList.contains('open')) return;
+      if(mobileNav.contains(event.target) || menuButton.contains(event.target)) return;
+      fecharMenu();
+    });
+
+    document.addEventListener('keydown',function(event){
+      if(event.key === 'Escape') fecharMenu();
+    });
+  }
+})();
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/GabrielBitten/Script-Catalogo-LP@main/site-loader.js"
+        data-config="https://cdn.jsdelivr.net/gh/GabrielBitten/Script-Catalogo-LP@main/polos/caracol.json"></script>
+</body>
+</html>

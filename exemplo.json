@@ -1,0 +1,69 @@
+{
+  "titulo": "UNICIVE — Polo NOME_DA_CIDADE/UF",
+
+  "polo": {
+    "nome": "Polo NOME_DA_CIDADE/UF",
+    "statTitulo": "Polo em NOME_DA_CIDADE/UF",
+    "statSub": "apoio presencial em [bairro/referência]"
+  },
+
+  "contato": {
+    "whatsapp": "55DDNUMERO",
+    "whatsappExibicao": "(DD) NUMERO",
+    "email": "polo.xxxxx@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Rua Exemplo, 123 — Bairro, Cidade/UF",
+    "mapsQuery": "Rua Exemplo, 123, Bairro, Cidade - UF, 00000-000",
+    "linhas": [
+      "Rua Exemplo, 123",
+      "Bairro — Cidade/UF",
+      "CEP 00000-000"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/..."
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · NOME_DA_CIDADE/UF",
+    "titulo": "Faça faculdade sem sair de NOME_DA_CIDADE, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE em NOME_DA_CIDADE/UF: graduação, pós-graduação e demais modalidades na Educação a Distância, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de NOME_DA_CIDADE",
+    "paragrafos": [
+      "Primeiro parágrafo sobre a criação e o objetivo do polo...",
+      "Segundo parágrafo sobre a atuação do polo...",
+      "Terceiro parágrafo sobre o atendimento à comunidade local...",
+      "Último parágrafo (aparece em destaque, com fundo colorido)."
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo NOME_DA_CIDADE",
+    "paragrafo": "Um endereço fixo em NOME_DA_CIDADE para tirar dúvidas, resolver documentos e receber apoio durante todo o curso.",
+    "enderecoNome": "Polo UNICIVE NOME_DA_CIDADE"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em NOME_DA_CIDADE/UF. Graduação, pós-graduação e formação continuada na modalidade EaD, com atendimento local.",
+    "bottomText": "UNICIVE — Polo NOME_DA_CIDADE/UF"
+  },
+
+  "galeria": [
+    {
+      "src": "https://.../fachada.jpg",
+      "alt": "Fachada do Polo UNICIVE NOME_DA_CIDADE",
+      "caption": "Fachada"
+    },
+    {
+      "src": "https://.../sala.jpg",
+      "alt": "Sala de aula do Polo UNICIVE NOME_DA_CIDADE",
+      "caption": "Sala de aula"
+    }
+  ]
+}
