@@ -9,14 +9,30 @@
    1) Suba o cursos.json (gerado a partir da LP atual) em um repositório
       GitHub e sirva pelo jsDelivr, ou em qualquer CDN/host que você controle.
    2) Ajuste CURSOS_JSON_URL abaixo para a URL desse arquivo.
-   3) Na LP, troque o conteúdo estático dos grupos/filtros de cada modal por
-      contêineres vazios (mantendo os mesmos ids/estrutura) e inclua este
-      arquivo com <script src="catalogo-loader.js"></script> no lugar do
-      antigo bloco <script> "CATÁLOGO DE CURSOS".
+   3) Na LP, inclua este arquivo no lugar do antigo bloco <script>
+      "CATÁLOGO DE CURSOS", informando o WhatsApp e o nome do polo
+      daquela LP específica via atributos data-* na própria tag <script>,
+      já que este arquivo é compartilhado por várias LPs com números e
+      polos diferentes:
+
+      <script src="catalogo-loader.js"
+              data-whatsapp="5567996185246"
+              data-polo="Polo Caracol/MS"></script>
+
+      Se algum desses atributos não for informado, o script cai nos
+      valores padrão definidos abaixo (WHATSAPP_PADRAO / POLO_PADRAO).
    ========================================================================= */
 (function(){
-  var CURSOS_JSON_URL = 'https://cdn.jsdelivr.net/gh/SEU-USUARIO/SEU-REPO@main/cursos.json';
-  var WHATSAPP = '5567996185246';
+  var CURSOS_JSON_URL = 'https://cdn.jsdelivr.net/gh/GabrielBitten/Script-Catalogo-LP@main/cursos.json';
+  var WHATSAPP_PADRAO = '5567996185246';
+  var POLO_PADRAO = 'Polo Caracol/MS';
+
+  /* Lê os atributos data-whatsapp e data-polo da própria tag <script> que
+     carregou este arquivo, para que cada LP use seu número e seu polo sem
+     precisar editar este script compartilhado. */
+  var scriptAtual = document.currentScript;
+  var WHATSAPP = (scriptAtual && scriptAtual.getAttribute('data-whatsapp')) || WHATSAPP_PADRAO;
+  var POLO = (scriptAtual && scriptAtual.getAttribute('data-polo')) || POLO_PADRAO;
 
   var MODALS = [
     { modalId: 'ucvModalGraduacao',         prefixo: 'grad',  chave: 'graduacao',          interesse: 'curso de graduação' },
@@ -35,7 +51,7 @@
   }
 
   function linkInteresse(nome, modalidade){
-    var texto = 'Olá! Tenho interesse no ' + modalidade + ' ' + nome + ' no Polo Caracol/MS.';
+    var texto = 'Olá! Tenho interesse no ' + modalidade + ' ' + nome + ' no ' + POLO + '.';
     return 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(texto);
   }
 
