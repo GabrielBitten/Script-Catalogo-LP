@@ -35,11 +35,12 @@
   var POLO = (scriptAtual && scriptAtual.getAttribute('data-polo')) || POLO_PADRAO;
 
   var MODALS = [
-    { modalId: 'ucvModalGraduacao',         prefixo: 'grad',  chave: 'graduacao',          interesse: 'curso de graduação' },
-    { modalId: 'ucvModalPos',                prefixo: 'pos',   chave: 'pos',                 interesse: 'curso de pós-graduação' },
-    { modalId: 'ucvModalAperfeicoamento',    prefixo: 'aperf', chave: 'aperfeicoamento',     interesse: 'curso de aperfeiçoamento' },
-    { modalId: 'ucvModalProfissionalizantes',prefixo: 'prof',  chave: 'profissionalizantes', interesse: 'curso profissionalizante' }
+    { modalId: 'ucvModalGraduacao',         prefixo: 'grad',  chave: 'graduacao',          interesse: 'curso de graduação',      area: 'Graduação' },
+    { modalId: 'ucvModalPos',                prefixo: 'pos',   chave: 'pos',                 interesse: 'curso de pós-graduação',  area: 'Pós-graduação' },
+    { modalId: 'ucvModalAperfeicoamento',    prefixo: 'aperf', chave: 'aperfeicoamento',     interesse: 'curso de aperfeiçoamento', area: 'Aperfeiçoamento' },
+    { modalId: 'ucvModalProfissionalizantes',prefixo: 'prof',  chave: 'profissionalizantes', interesse: 'curso profissionalizante', area: 'cursos Profissionalizantes' }
   ];
+
 
   function normalizar(txt){
     return (txt || '')
@@ -164,6 +165,19 @@
       plural: dadosModalidade.plural,
       metaPadrao: metaPadrao
     };
+  }
+
+  /* ---------- Botão "Falar no WhatsApp" do rodapé do modal ----------
+     Esse botão (o de "Não encontrou o que procura?") vinha com o link
+     fixo no HTML. Aqui ele passa a usar o mesmo WHATSAPP/POLO configurados
+     na tag <script>, igual aos links "Tenho interesse →". */
+  function ajustarBotaoRodape(cfg){
+    var modal = document.getElementById(cfg.modalId);
+    if(!modal) return;
+    var botao = modal.querySelector('.ucv-modal-foot a.ucv-btn');
+    if(!botao) return;
+    var texto = 'Olá! Quero falar sobre ' + cfg.area + ' no ' + POLO + '.';
+    botao.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(texto);
   }
 
   /* ---------- Busca + filtro (mesma lógica de antes, roda após montar o DOM) ---------- */
@@ -318,6 +332,7 @@
         var dadosModalidade = dados[cfg.chave];
         if(!dadosModalidade) return;
         var config = montarModal(cfg, dadosModalidade);
+        ajustarBotaoRodape(cfg);
         if(config){
           iniciarCatalogo({
             prefixo: cfg.prefixo,
