@@ -13,6 +13,17 @@
               data-config="https://cdn.jsdelivr.net/gh/USUARIO/REPO@main/polos/caracol.json"></script>
 
    3) Pronto — o HTML da LP não precisa de nenhuma outra edição.
+
+   EXCLUIR CURSOS SÓ NESSE POLO (ex: licenciaturas):
+   No JSON do polo, adicione o campo "excluirCursosContendo" com uma lista
+   de termos. Qualquer curso cujo nome contenha um desses termos (sem
+   diferenciar maiúsculas/acentos) é removido SÓ na montagem dessa LP — o
+   cursos.json compartilhado e as outras LPs continuam intactos.
+
+      "excluirCursosContendo": ["licenciatura"]
+
+   Se o campo não existir no JSON do polo, nada é filtrado (comportamento
+   padrão, igual ao de hoje).
    ========================================================================= */
 (function(){
   var CURSOS_JSON_URL = 'https://cdn.jsdelivr.net/gh/GabrielBitten/Script-Catalogo-LP@main/cursos.json';
@@ -41,6 +52,52 @@
   function set(id, fn){
     var el = document.getElementById(id);
     if(el) fn(el);
+  }
+
+  /* ---------- Filtra cursos indesejados (por polo, via config) ---------- */
+  function aplicarExclusoes(dadosCursos, termosExcluir){
+    if(!termosExcluir || !termosExcluir.length) return dadosCursos;
+
+    var termosNormalizados = termosExcluir.map(normalizar);
+
+    function nomeContemTermoExcluido(nomeCurso){
+      var nomeNormalizado = normalizar(nomeCurso);
+      return termosNormalizados.some(function(termo){
+        return termo && nomeNormalizado.indexOf(termo) !== -1;
+      });
+    }
+
+    var resultado = {};
+    Object.keys(dadosCursos).forEach(function(chaveModalidade){
+      var modalidade = dadosCursos[chaveModalidade];
+
+      var gruposFiltrados = modalidade.grupos
+        .map(function(grupo){
+          var cursosFiltrados = grupo.cursos.filter(function(curso){
+            return !nomeContemTermoExcluido(curso.nome);
+          });
+          return {
+            chave: grupo.chave,
+            label: grupo.label,
+            cursos: cursosFiltrados
+          };
+        })
+        .filter(function(grupo){ return grupo.cursos.length > 0; });
+
+      var chavesRestantes = gruposFiltrados.map(function(g){ return g.chave; });
+      var filtrosFiltrados = (modalidade.filtros || []).filter(function(f){
+        return chavesRestantes.indexOf(f.chave) !== -1;
+      });
+
+      resultado[chaveModalidade] = {
+        singular: modalidade.singular,
+        plural: modalidade.plural,
+        filtros: filtrosFiltrados,
+        grupos: gruposFiltrados
+      };
+    });
+
+    return resultado;
   }
 
   /* ---------- Preenche todo o conteúdo do site a partir do config ---------- */
@@ -507,7 +564,8 @@
           return res.json();
         })
         .then(function(dadosCursos){
-          montarCursos(config, dadosCursos);
+          var dadosFiltrados = aplicarExclusoes(dadosCursos, config.excluirCursosContendo);
+          montarCursos(config, dadosFiltrados);
         });
     })
     .catch(function(erro){
