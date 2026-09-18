@@ -1,5 +1,6 @@
 {
   "titulo": "UNICIVE — Polo Xaxim/SC",
+  "excluirCursosContendo": ["licenciatura"],
 
   "polo": {
     "nome": "Polo Xaxim/SC",
