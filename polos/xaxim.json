@@ -1,0 +1,83 @@
+{
+  "titulo": "UNICIVE — Polo Xaxim/SC",
+
+  "polo": {
+    "nome": "Polo Xaxim/SC",
+    "statTitulo": "Polo em Xaxim/SC",
+    "statSub": "apoio presencial na Rua Cândido Teston, Centro"
+  },
+
+  "contato": {
+    "whatsapp": "5549991041792",
+    "whatsappExibicao": "(49) 99104-1792",
+    "email": "polo.xaxim.centro@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Rua Cândido Teston, 1172 — Centro, Xaxim/SC",
+    "mapsQuery": "Rua Cândido Teston, 1172, Centro, Xaxim - SC",
+    "linhas": [
+      "Rua Cândido Teston, 1172",
+      "Centro — Xaxim/SC"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · Xaxim/SC",
+    "titulo": "Faça faculdade sem sair de Xaxim, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE em Xaxim/SC: cursos 100% online, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de Xaxim",
+    "paragrafos": [
+      "O Polo Unicive Xaxim-SC é um espaço de apoio para quem busca uma formação de qualidade, com flexibilidade para estudar de onde estiver.",
+      "Com cursos 100% online, o Unicive permite que você organize seus estudos de acordo com sua rotina, conciliando formação, trabalho e vida pessoal. Nossos alunos estão presentes em diferentes regiões do Brasil e podem estudar sem precisar se deslocar até o polo.",
+      "Ao mesmo tempo, contamos com um polo presencial efetivamente aberto em Xaxim-SC, com estrutura e equipe disponíveis para atendimento e suporte aos nossos alunos sempre que necessário.",
+      "Nosso objetivo é unir a praticidade do ensino online com a proximidade de um polo físico, oferecendo orientação e atendimento para que o aluno tenha suporte durante sua jornada acadêmica."
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo Xaxim",
+    "paragrafo": "Um endereço fixo em Xaxim para tirar dúvidas, resolver documentos e receber apoio durante toda sua jornada acadêmica.",
+    "enderecoNome": "Polo UNICIVE Xaxim"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em Xaxim/SC. Cursos 100% online na modalidade EaD, com atendimento local.",
+    "bottomText": "UNICIVE — Polo Xaxim/SC"
+  },
+
+  "galeria": [
+    {
+      "src": "https://unicive.com/wp-content/uploads/2026/09/WhatsappT.Z-d2264bf6-ca91-43cb-a358-bdcdfd61d844_11zon.webp",
+      "alt": "Fachada do Polo UNICIVE Xaxim",
+      "caption": "Fachada"
+    },
+    {
+      "src": "https://unicive.com/wp-content/uploads/2026/09/WhatsappT.Z-ff59b2bf-6a06-43b8-a521-0cf906be33d8_11zon.webp",
+      "alt": "Sala de aula do Polo UNICIVE Xaxim",
+      "caption": "Sala de aula"
+    },
+    {
+      "src": "https://unicive.com/wp-content/uploads/2026/09/WhatsappT.Z-8daffbbc-20ec-4c7b-ab2b-87c0a9850120_11zon.webp",
+      "alt": "Espaço de atendimento do Polo UNICIVE Xaxim",
+      "caption": "Recepção e atendimento"
+    },
+    {
+      "src": "https://unicive.com/wp-content/uploads/2026/09/WhatsappT.Z-a7273a36-acbe-4f88-9cbc-3ef9c26194e8_11zon.webp",
+      "alt": "Área de estudos do Polo UNICIVE Xaxim",
+      "caption": "Área de estudos"
+    },
+    {
+      "src": "https://unicive.com/wp-content/uploads/2026/09/WhatsappT.Z-b6aee19d-e35b-4172-8cee-7476e3b2bd36_11zon.webp",
+      "alt": "Estrutura interna do Polo UNICIVE Xaxim",
+      "caption": "Estrutura do polo"
+    }
+  ]
+}
