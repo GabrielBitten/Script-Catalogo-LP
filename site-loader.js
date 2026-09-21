@@ -22,8 +22,20 @@
 
       "excluirCursosContendo": ["licenciatura"]
 
-   Se o campo não existir no JSON do polo, nada é filtrado (comportamento
-   padrão, igual ao de hoje).
+   EXCLUIR UM GRUPO INTEIRO SÓ NESSE POLO (ex: toda a coluna "Semipresencial"):
+   No JSON do polo, adicione o campo "excluirGrupos", indicando a chave da
+   modalidade e, dentro dela, a lista de chaves de grupo a remover:
+
+      "excluirGrupos": {
+        "graduacao": ["semipresencial"]
+      }
+
+   As chaves de modalidade são: graduacao, pos, aperfeicoamento,
+   profissionalizantes. A chave de cada grupo é a mesma usada nos filtros
+   do cursos.json (ex: "semipresencial", "bacharelado", "tecnologo").
+
+   Se nenhum dos dois campos existir no JSON do polo, nada é filtrado
+   (comportamento padrão, igual ao de hoje).
    ========================================================================= */
 (function(){
   var CURSOS_JSON_URL = 'https://cdn.jsdelivr.net/gh/GabrielBitten/Script-Catalogo-LP@main/cursos.json';
@@ -55,10 +67,12 @@
   }
 
   /* ---------- Filtra cursos indesejados (por polo, via config) ---------- */
-  function aplicarExclusoes(dadosCursos, termosExcluir){
-    if(!termosExcluir || !termosExcluir.length) return dadosCursos;
+  function aplicarExclusoes(dadosCursos, termosExcluir, gruposExcluir){
+    var temTermos = termosExcluir && termosExcluir.length;
+    var temGrupos = gruposExcluir && Object.keys(gruposExcluir).length;
+    if(!temTermos && !temGrupos) return dadosCursos;
 
-    var termosNormalizados = termosExcluir.map(normalizar);
+    var termosNormalizados = temTermos ? termosExcluir.map(normalizar) : [];
 
     function nomeContemTermoExcluido(nomeCurso){
       var nomeNormalizado = normalizar(nomeCurso);
@@ -70,8 +84,12 @@
     var resultado = {};
     Object.keys(dadosCursos).forEach(function(chaveModalidade){
       var modalidade = dadosCursos[chaveModalidade];
+      var chavesGrupoExcluidas = (gruposExcluir && gruposExcluir[chaveModalidade]) || [];
 
       var gruposFiltrados = modalidade.grupos
+        .filter(function(grupo){
+          return chavesGrupoExcluidas.indexOf(grupo.chave) === -1;
+        })
         .map(function(grupo){
           var cursosFiltrados = grupo.cursos.filter(function(curso){
             return !nomeContemTermoExcluido(curso.nome);
@@ -564,7 +582,7 @@
           return res.json();
         })
         .then(function(dadosCursos){
-          var dadosFiltrados = aplicarExclusoes(dadosCursos, config.excluirCursosContendo);
+          var dadosFiltrados = aplicarExclusoes(dadosCursos, config.excluirCursosContendo, config.excluirGrupos);
           montarCursos(config, dadosFiltrados);
         });
     })
