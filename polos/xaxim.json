@@ -1,6 +1,9 @@
 {
   "titulo": "UNICIVE — Polo Xaxim/SC",
   "excluirCursosContendo": ["licenciatura"],
+  "excluirGrupos": {
+  "graduacao": ["semipresencial"]
+  },
 
   "polo": {
     "nome": "Polo Xaxim/SC",
