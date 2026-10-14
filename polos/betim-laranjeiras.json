@@ -1,0 +1,59 @@
+{
+  "titulo": "UNICIVE — Polo Betim/MG - Laranjeiras",
+
+  "polo": {
+    "nome": "Polo Betim/MG - Laranjeiras",
+    "statTitulo": "Polo em Betim/MG",
+    "statSub": "apoio presencial na Av. Juiz Marco Túlio Isaac, Laranjeiras"
+  },
+
+  "contato": {
+    "whatsapp": "5531981218817",
+    "whatsappExibicao": "(31) 98121-8817",
+    "email": "polo.betim.laranjeiras@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Av. Juiz Marco Túlio Isaac, 508, Loja 1 — Laranjeiras, Betim/MG",
+    "mapsQuery": "Av. Juiz Marco Túlio Isaac, 508, Laranjeiras, Betim - MG, 32676-274",
+    "linhas": [
+      "Av. Juiz Marco Túlio Isaac, 508 — Loja 1",
+      "Laranjeiras — Betim/MG",
+      "CEP 32676-274"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · Betim/MG - Laranjeiras",
+    "titulo": "Faça faculdade em Betim, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE em Betim/MG, no bairro Laranjeiras: graduação EaD e semipresencial, segunda graduação e pós-graduação, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de Betim - Laranjeiras",
+    "paragrafos": [
+      "O Polo Unicive Betim/MG - Laranjeiras tem o compromisso de aproximar a educação superior da população, oferecendo praticidade, acessibilidade e uma experiência acadêmica pautada no acolhimento e na atenção individualizada aos estudantes.",
+      "Estamos localizados em uma das principais vias de Betim, fora da região central, em uma posição estratégica que facilita o acesso de estudantes de diferentes bairros, reduz a necessidade de deslocamento até o centro e ajuda a conciliar estudos, trabalho e vida pessoal.",
+      "O polo conta com sala de aula preparada para atividades acadêmicas e momentos de aprendizagem presencial, laboratório de informática e internet de alta velocidade para acessar as plataformas de ensino, conteúdos digitais e recursos acadêmicos.",
+      "Acreditamos que cada estudante tem uma história, uma realidade e objetivos próprios. Por isso, valorizamos um atendimento próximo, humanizado e personalizado, com disposição para orientar os alunos ao longo de toda a trajetória acadêmica.",
+      "Nosso propósito é oferecer mais do que acesso à educação: queremos que cada estudante se sinta acolhido, respeitado e apoiado durante sua formação."
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo Betim - Laranjeiras",
+    "paragrafo": "Um endereço fácil de acessar em Betim, fora do centro, para tirar dúvidas, resolver documentos e receber apoio durante toda sua jornada acadêmica.",
+    "enderecoNome": "Polo UNICIVE Betim - Laranjeiras"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em Betim/MG - Laranjeiras. Graduação EaD e semipresencial, segunda graduação e pós-graduação, com atendimento local.",
+    "bottomText": "UNICIVE — Polo Betim/MG - Laranjeiras"
+  },
+
+  "galeria": []
+}
