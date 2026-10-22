@@ -1,0 +1,59 @@
+{
+  "titulo": "UNICIVE — Polo Governador Valadares/MG - São Cristóvão",
+
+  "polo": {
+    "nome": "Polo Governador Valadares/MG - São Cristóvão",
+    "statTitulo": "Polo em Governador Valadares/MG",
+    "statSub": "apoio presencial na Rua José Pedro Clementino, São Cristóvão"
+  },
+
+  "contato": {
+    "whatsapp": "553332252296",
+    "whatsappExibicao": "(33) 3225-2296",
+    "email": "polo.governadorvaladares.saocristovao@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Rua José Pedro Clementino, 107 — São Cristóvão, Governador Valadares/MG",
+    "mapsQuery": "Rua José Pedro Clementino, 107, São Cristóvão, Governador Valadares - MG, 35045-310",
+    "linhas": [
+      "Rua José Pedro Clementino, 107",
+      "São Cristóvão — Governador Valadares/MG",
+      "CEP 35045-310"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · Governador Valadares/MG - São Cristóvão",
+    "titulo": "Faça faculdade em Governador Valadares, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE em Governador Valadares/MG, no bairro São Cristóvão: graduação EaD e semipresencial, segunda graduação, segunda licenciatura e pós-graduação, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de Governador Valadares - São Cristóvão",
+    "paragrafos": [
+      "O Unicive é uma instituição de ensino superior com mais de 21 anos de atuação no mercado educacional e que já formou milhares de profissionais. Desde 2017, a SFALSINI EAD atua como polo do Unicive, ampliando o acesso à educação e fortalecendo o compromisso com uma formação de qualidade.",
+      "Fundada em 2014, a SFALSINI é uma Assessoria Educacional e Pedagógica que também atua na formação de professores e profissionais para a Educação Especial e o Atendimento Educacional Especializado (AEE).",
+      "Ao longo de nossa trajetória como Polo Governador Valadares do Unicive, diversificamos nossos produtos educacionais, passando a oferecer oportunidades de formação em diferentes áreas do conhecimento, como Educação, Gestão, Saúde e Jurídica, entre outras.",
+      "Além disso, disponibilizamos um amplo portfólio de cursos nas modalidades de Educação a Distância (EAD) e semipresencial, incluindo licenciaturas, segunda licenciatura, bacharelados, cursos superiores de tecnologia, segunda graduação, pós-graduações em diversas áreas, cursos de extensão e profissionalizantes.",
+      "Nossa história é marcada pela busca constante por novas oportunidades de aprendizagem, pela ampliação do acesso à educação e pelo compromisso de contribuir para o desenvolvimento acadêmico e profissional de nossos alunos."
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo Governador Valadares - São Cristóvão",
+    "paragrafo": "Um endereço fixo em Governador Valadares para tirar dúvidas, resolver documentos e receber apoio durante toda sua jornada acadêmica.",
+    "enderecoNome": "Polo UNICIVE Governador Valadares - São Cristóvão"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em Governador Valadares/MG - São Cristóvão. Graduação EaD e semipresencial, segunda graduação e pós-graduação, com atendimento local.",
+    "bottomText": "UNICIVE — Polo Governador Valadares/MG - São Cristóvão"
+  },
+
+  "galeria": []
+}
