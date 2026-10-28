@@ -1,0 +1,67 @@
+{
+  "titulo": "UNICIVE — Polo São Francisco do Sul/SC - Centro",
+  "excluirGrupos": {
+    "graduacao": ["semipresencial"]
+  },
+
+  "polo": {
+    "nome": "Polo São Francisco do Sul/SC - Centro",
+    "statTitulo": "Polo em São Francisco do Sul/SC",
+    "statSub": "apoio presencial na Rua Marcílio Dias, Centro"
+  },
+
+  "contato": {
+    "whatsapp": "5547991140592",
+    "whatsappExibicao": "(47) 99114-0592",
+    "email": "polo.saofranciscodosul.centro@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Rua Marcílio Dias, 607 — Centro, São Francisco do Sul/SC",
+    "mapsQuery": "Rua Marcílio Dias, 607, Centro, São Francisco do Sul - SC, 89330-085",
+    "linhas": [
+      "Rua Marcílio Dias, 607",
+      "Centro — São Francisco do Sul/SC",
+      "CEP 89330-085"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · São Francisco do Sul/SC - Centro",
+    "titulo": "Faça faculdade em São Francisco do Sul, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE no Centro de São Francisco do Sul/SC: graduação EaD, segunda graduação, pós-graduação e cursos livres, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de São Francisco do Sul - Centro",
+    "paragrafos": [
+      "O polo Unicive São Francisco do Sul/SC oferece cursos superiores de excelência, reconhecidos pelo MEC. Somos Polo Oficial do Centro Universitário Cidade Verde desde 2020.",
+      "Nosso portfólio é completo: graduação EAD em bacharelado e tecnólogo, técnico para tecnólogo, segunda graduação, segunda graduação em licenciatura, pós-graduação EAD e cursos livres EAD.",
+      "Já tem uma formação? Continue evoluindo na sua área. Quer mudar de carreira? Escolha um novo caminho.",
+      "Atendimento presencial em São Francisco do Sul e também pelo WhatsApp, do jeito que for mais prático para você. Comece agora a sua formação!"
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo São Francisco do Sul - Centro",
+    "paragrafo": "Um endereço fixo no Centro de São Francisco do Sul para tirar dúvidas, resolver documentos e receber apoio durante toda sua jornada acadêmica.",
+    "enderecoNome": "Polo UNICIVE São Francisco do Sul - Centro"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em São Francisco do Sul/SC - Centro. Graduação EaD, segunda graduação, pós-graduação e cursos livres, com atendimento local.",
+    "bottomText": "UNICIVE — Polo São Francisco do Sul/SC - Centro"
+  },
+
+  "galeria": [
+    {
+      "src": "https://nobilis.unicive.edu.br/storage/campus_images/wccHydQ3pb7uXpXULNdv9gNkofN9laFe3rSWxCrd.jpg",
+      "alt": "Fachada do Polo UNICIVE São Francisco do Sul",
+      "caption": "Fachada"
+    }
+  ]
+}
