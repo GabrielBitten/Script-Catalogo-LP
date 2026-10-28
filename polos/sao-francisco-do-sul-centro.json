@@ -1,5 +1,6 @@
 {
   "titulo": "UNICIVE — Polo São Francisco do Sul/SC - Centro",
+  "excluirCursosContendo": ["- semi"],
   "excluirGrupos": {
     "graduacao": ["semipresencial"]
   },
