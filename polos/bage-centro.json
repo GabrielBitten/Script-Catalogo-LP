@@ -1,0 +1,58 @@
+{
+  "titulo": "UNICIVE — Polo Bagé/RS - Centro",
+
+  "polo": {
+    "nome": "Polo Bagé/RS - Centro",
+    "statTitulo": "Polo em Bagé/RS",
+    "statSub": "apoio presencial na Rua General Neto, Centro"
+  },
+
+  "contato": {
+    "whatsapp": "5553920003797",
+    "whatsappExibicao": "(53) 92000-3797",
+    "email": "polo.bage.centro@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Rua General Neto, 132 — Centro, Bagé/RS",
+    "mapsQuery": "Rua General Neto, 132, Centro, Bagé - RS, 96400-380",
+    "linhas": [
+      "Rua General Neto, 132",
+      "Centro — Bagé/RS",
+      "CEP 96400-380"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · Bagé/RS - Centro",
+    "titulo": "Faça faculdade em Bagé, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE no Centro de Bagé/RS: graduação EaD e semipresencial, segunda graduação, pós-graduação, cursos técnicos, livres e de aperfeiçoamento, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de Bagé - Centro",
+    "paragrafos": [
+      "O polo Unicive Bagé/RS representa uma instituição com mais de 21 anos de atuação. Nesse período, já formamos mais de 15 mil alunos em cursos que vão da graduação à qualificação profissional rápida.",
+      "Nosso foco é um só: preparar pessoas para o mercado de trabalho. Por isso, nosso catálogo reúne graduação EAD em bacharelado e tecnólogo, além de licenciatura semipresencial, opções de segunda graduação, inclusive em licenciatura, e cursos de pós-graduação EAD. Quem já tem um curso técnico pode migrar para a graduação com a modalidade Técnico para Tecnólogo.",
+      "Para quem busca qualificação mais direta, o polo também oferece cursos técnicos profissionalizantes, cursos livres EAD e cursos de aperfeiçoamento, pensados para atualizar conhecimentos ou abrir novas oportunidades em pouco tempo.",
+      "Se você quer entrar no mercado, mudar de área ou avançar na carreira, conheça o polo Unicive Bagé/RS e veja qual formação faz sentido para o seu momento."
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo Bagé - Centro",
+    "paragrafo": "Um endereço fixo no Centro de Bagé para tirar dúvidas, resolver documentos e receber apoio durante toda sua jornada acadêmica.",
+    "enderecoNome": "Polo UNICIVE Bagé - Centro"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em Bagé/RS - Centro. Graduação EaD e semipresencial, segunda graduação, pós-graduação e cursos profissionalizantes, com atendimento local.",
+    "bottomText": "UNICIVE — Polo Bagé/RS - Centro"
+  },
+
+  "galeria": []
+}
