@@ -1,0 +1,59 @@
+{
+  "titulo": "UNICIVE — Polo Rio do Sul/SC - Jardim América",
+
+  "polo": {
+    "nome": "Polo Rio do Sul/SC - Jardim América",
+    "statTitulo": "Polo em Rio do Sul/SC",
+    "statSub": "apoio presencial na Rua Presidente Kennedy, Jardim América"
+  },
+
+  "contato": {
+    "whatsapp": "5547997681233",
+    "whatsappExibicao": "(47) 99768-1233",
+    "email": "polo.riodosul.jardimamerica@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Rua Presidente Kennedy, 452 — Jardim América, Rio do Sul/SC",
+    "mapsQuery": "Rua Presidente Kennedy, 452, Jardim América, Rio do Sul - SC, 89160-190",
+    "linhas": [
+      "Rua Presidente Kennedy, 452",
+      "Jardim América — Rio do Sul/SC",
+      "CEP 89160-190"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · Rio do Sul/SC - Jardim América",
+    "titulo": "Transforme sua carreira com o curso certo, <span class=\"ucv-highlight\">perto de você</span> em Rio do Sul.",
+    "paragrafo": "Graduação, pós-graduação, segunda graduação, segunda licenciatura e formação de técnico para tecnólogo, com atendimento próximo de uma equipe que atua há mais de 20 anos na educação."
+  },
+
+  "sobre": {
+    "titulo": "Educação de qualidade para transformar Rio do Sul e toda a região",
+    "paragrafos": [
+      "O Polo Rio do Sul do Unicive nasceu em 2025 a partir do sonho de empresários da área da educação, que atuam há mais de 20 anos transformando vidas por meio do ensino superior.",
+      "Com uma trajetória marcada pelo compromisso com a qualidade, esses empresários buscaram trazer para Rio do Sul uma instituição que reunisse excelência acadêmica, flexibilidade de estudos, inovação e reconhecimento, representando um centro universitário com nota máxima no MEC.",
+      "Desde a sua inauguração, o Polo Rio do Sul tornou-se referência no Alto Vale do Itajaí, oferecendo oportunidades para quem deseja crescer profissionalmente por meio de graduação, pós-graduação, segunda graduação, segunda graduação em licenciatura e transformando cursos técnicos para graduação tecnólogo.",
+      "Mais do que oferecer cursos, o Polo Rio do Sul do Unicive nasceu com a missão de ampliar o acesso ao ensino superior de qualidade, formando profissionais preparados para os desafios do mercado e contribuindo para o desenvolvimento de toda a região.",
+      "Quer transformar sua carreira com uma formação de qualidade? Nossa equipe está pronta para ajudar você a escolher o curso ideal e iniciar sua jornada no Unicive."
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo Rio do Sul",
+    "paragrafo": "Apoio presencial e atendimento próximo, aqui em Rio do Sul: venha nos visitar ou fale antes pelo WhatsApp.",
+    "enderecoNome": "Polo UNICIVE Rio do Sul - Jardim América"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em Rio do Sul/SC - Jardim América. Graduação, pós-graduação, segunda graduação e formação de técnico para tecnólogo, com atendimento local.",
+    "bottomText": "UNICIVE — Polo Rio do Sul/SC - Jardim América"
+  },
+
+  "galeria": []
+}
