@@ -28,21 +28,38 @@
   },
 
   "hero": {
-    "eyebrow": "UNICIVE · Rio do Sul/SC - Jardim América",
-    "titulo": "Transforme sua carreira com o curso certo, <span class=\"ucv-highlight\">perto de você</span> em Rio do Sul.",
+    "eyebrow": "UNICIVE",
+    "titulo": "Transforme sua carreira com o curso certo, <span class=\"ucv-highlight\">perto de você</span>.",
     "paragrafo": "Graduação, pós-graduação, segunda graduação, segunda licenciatura e formação de técnico para tecnólogo, com atendimento próximo de uma equipe que atua há mais de 20 anos na educação."
   },
 
   "sobre": {
-    "titulo": "Educação de qualidade para transformar Rio do Sul e toda a região",
+    "titulo": "Conheça a história do nosso polo",
     "paragrafos": [
-      "O Polo Rio do Sul do Unicive nasceu em 2025 a partir do sonho de empresários da área da educação, que atuam há mais de 20 anos transformando vidas por meio do ensino superior.",
-      "Com uma trajetória marcada pelo compromisso com a qualidade, esses empresários buscaram trazer para Rio do Sul uma instituição que reunisse excelência acadêmica, flexibilidade de estudos, inovação e reconhecimento, representando um centro universitário com nota máxima no MEC.",
-      "Desde a sua inauguração, o Polo Rio do Sul tornou-se referência no Alto Vale do Itajaí, oferecendo oportunidades para quem deseja crescer profissionalmente por meio de graduação, pós-graduação, segunda graduação, segunda graduação em licenciatura e transformando cursos técnicos para graduação tecnólogo.",
-      "Mais do que oferecer cursos, o Polo Rio do Sul do Unicive nasceu com a missão de ampliar o acesso ao ensino superior de qualidade, formando profissionais preparados para os desafios do mercado e contribuindo para o desenvolvimento de toda a região.",
-      "Nossa equipe está pronta para ajudar você a escolher o curso ideal e iniciar sua jornada no Unicive."
-    ],
-    "chamada": "Quer transformar sua carreira com uma formação de qualidade?"
+      {
+        "titulo": "Toda grande transformação começa com um sonho",
+        "texto": "O nosso nasceu de um propósito simples e ousado: mudar vidas por meio da educação. Dessa crença surgiu a parceria com o Unicive, um centro universitário com nota máxima no MEC, que une excelência acadêmica, inovação, flexibilidade e compromisso com a formação profissional."
+      },
+      {
+        "titulo": "Polo Unicive Rio do Sul/SC",
+        "texto": "Nossa história começou em Rio do Sul, Santa Catarina, idealizada por empresários com mais de 20 anos de experiência no ensino superior. Mais do que abrir um polo universitário, o objetivo era construir uma nova história: tornar a educação de qualidade cada vez mais acessível e aproximar oportunidades de quem sonha com um futuro melhor. O que começou ali cresceu, ultrapassou fronteiras e hoje conecta estudantes de todo o país."
+      },
+      {
+        "titulo": "Educação não deve ter fronteiras",
+        "texto": "Acreditamos que o acesso ao conhecimento não pode esbarrar em barreiras geográficas, sociais ou financeiras. Por isso, nossos polos de apoio e nossa equipe estão prontos para oferecer um atendimento próximo, humanizado e comprometido com cada trajetória, esteja você onde estiver no Brasil."
+      },
+      {
+        "titulo": "Mais do que cursos, caminhos",
+        "texto": "Oferecemos graduação, segunda graduação, licenciaturas, pós-graduação e a oportunidade de evoluir da formação técnica para o ensino superior. Mas nosso compromisso vai além: queremos abrir caminhos, criar possibilidades e mostrar que nunca é tarde para construir um novo futuro."
+      },
+      {
+        "titulo": "Porque educação transforma",
+        "texto": "Quando uma pessoa tem acesso à educação, ela transforma a própria vida. Quando milhares têm essa oportunidade, transformamos uma nação."
+      },
+      {
+        "titulo": "Polo Unicive Rio do Sul/SC - Transformando sonhos em oportunidades, histórias em conquistas e educação em futuro."
+      }
+    ]
   },
 
   "localizacao": {
