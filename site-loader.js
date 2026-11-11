@@ -568,15 +568,19 @@
     iniciarModais();
   }
 
-  /* ---------- Ponto de entrada: busca a config do polo e o catálogo ---------- */
-  fetch(CONFIG_URL)
+  /* ---------- Ponto de entrada: busca a config do polo e o catálogo ----------
+     cache:'no-cache' faz o navegador confirmar com o jsDelivr se o JSON mudou
+     (resposta 304 bem leve quando não mudou). Sem isso o navegador reusa a
+     cópia antiga por até 7 dias, mesmo depois do purge. */
+  var SEM_CACHE = { cache:'no-cache' };
+  fetch(CONFIG_URL, SEM_CACHE)
     .then(function(res){
       if(!res.ok) throw new Error('Falha ao carregar a configuração do polo (' + res.status + ')');
       return res.json();
     })
     .then(function(config){
       montarSite(config);
-      return fetch(CURSOS_JSON_URL)
+      return fetch(CURSOS_JSON_URL, SEM_CACHE)
         .then(function(res){
           if(!res.ok) throw new Error('Falha ao carregar cursos.json (' + res.status + ')');
           return res.json();
