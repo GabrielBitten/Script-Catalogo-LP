@@ -1,0 +1,58 @@
+{
+  "titulo": "UNICIVE — Polo Engenheiro Paulo de Frontin/RJ - Centro",
+
+  "polo": {
+    "nome": "Polo Engenheiro Paulo de Frontin/RJ - Centro",
+    "statTitulo": "Polo em Engenheiro Paulo de Frontin/RJ",
+    "statSub": "apoio presencial na Av. João Batista Ferrine, Centro"
+  },
+
+  "contato": {
+    "whatsapp": "5524999307886",
+    "whatsappExibicao": "(24) 99930-7886",
+    "email": "polo.engenheiropaulodefrontin.centro@unicive.edu.br"
+  },
+
+  "endereco": {
+    "resumo": "Av. João Batista Ferrine, 132, Loja 3 — Centro, Engenheiro Paulo de Frontin/RJ",
+    "mapsQuery": "Av. João Batista Ferrine, 132, Centro, Engenheiro Paulo de Frontin - RJ, 26650-000",
+    "linhas": [
+      "Av. João Batista Ferrine, 132 — Loja 3",
+      "Centro — Engenheiro Paulo de Frontin/RJ",
+      "CEP 26650-000"
+    ]
+  },
+
+  "emec": {
+    "link": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzY0OQ=="
+  },
+
+  "hero": {
+    "eyebrow": "UNICIVE · Engenheiro Paulo de Frontin/RJ - Centro",
+    "titulo": "Faça faculdade em Engenheiro Paulo de Frontin, com <span class=\"ucv-highlight\">apoio presencial</span> perto de você.",
+    "paragrafo": "Polo de Apoio Presencial do UNICIVE no Centro de Engenheiro Paulo de Frontin/RJ: graduação EaD e semipresencial, segunda graduação, técnico para tecnólogo e pós-graduação, com suporte acadêmico e administrativo do início ao fim do curso."
+  },
+
+  "sobre": {
+    "titulo": "O Polo de Apoio Presencial de Engenheiro Paulo de Frontin - Centro",
+    "paragrafos": [
+      "Desde 2020, o polo Unicive está em Engenheiro Paulo de Frontin/RJ com um propósito claro: ampliar o acesso ao ensino superior na região. De lá para cá, o polo vem contribuindo para a formação de estudantes de todo o Sul Fluminense, levando oportunidades, conhecimento e novos caminhos de crescimento profissional para perto de você.",
+      "No Unicive Polo Engenheiro Paulo de Frontin – Centro/RJ, você encontra cursos para cada momento da sua jornada: Graduação EAD (Bacharelado e Tecnólogo), Licenciatura Semipresencial, Técnico para Tecnólogo, 2ª Graduação, 2ª Graduação em Licenciatura, Pós-Graduação EAD e muito mais.",
+      "São centenas de opções para você escolher a que melhor combina com o seu perfil e com os seus planos de carreira.",
+      "Escolha seu curso e garanta sua vaga hoje mesmo!"
+    ]
+  },
+
+  "localizacao": {
+    "titulo": "Por que estudar no Polo Engenheiro Paulo de Frontin - Centro",
+    "paragrafo": "Um endereço fixo no Centro de Engenheiro Paulo de Frontin para tirar dúvidas, resolver documentos e receber apoio durante toda sua jornada acadêmica.",
+    "enderecoNome": "Polo UNICIVE Engenheiro Paulo de Frontin - Centro"
+  },
+
+  "footer": {
+    "descricao": "Polo de Apoio Presencial em Engenheiro Paulo de Frontin/RJ - Centro. Graduação EaD e semipresencial, segunda graduação e pós-graduação, com atendimento local para todo o Sul Fluminense.",
+    "bottomText": "UNICIVE — Polo Engenheiro Paulo de Frontin/RJ - Centro"
+  },
+
+  "galeria": []
+}
