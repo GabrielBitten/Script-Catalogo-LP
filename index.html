@@ -26,11 +26,26 @@ html,body{
 }
 
 body{
-  margin:0;
+  margin:0 !important;
   font-family:'Rethink Sans',Helvetica,Arial,sans-serif;
   color:#0C2620;
   background:#fff;
   -webkit-font-smoothing:antialiased;
+}
+
+/* RD Station: a seção/linha/coluna/bloco que envolve o HTML vem com
+   espaçamento padrão, que deixava uma faixa branca acima do header.
+   Zera só na seção que contém a LP (:has), sem mexer no resto da página. */
+.bricks--section:has(.ucv-wrap) > div,
+.bricks--section:has(.ucv-wrap) .bricks--row,
+.bricks--section:has(.ucv-wrap) .bricks--column,
+.bricks--section:has(.ucv-wrap) .bricks--column > div,
+.bricks--section:has(.ucv-wrap) .bricks--component-html{
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+  min-height:0 !important;
 }
 
 a{color:#006652;text-decoration:none}
