@@ -46,6 +46,11 @@
             "duracao": "(3 Anos)"
           },
           {
+            "nome": "Ciências da Segurança",
+            "duracao": "(5 Anos)",
+            "novo": true
+          },
+          {
             "nome": "Ciências Econômicas",
             "duracao": "(3 Anos)"
           },
@@ -56,6 +61,11 @@
           {
             "nome": "Ciências Sociais",
             "duracao": "(3 Anos)"
+          },
+          {
+            "nome": "Comunicação e Multimeios",
+            "duracao": "(3,5 Anos)",
+            "novo": true
           },
           {
             "nome": "Engenharia de Agentes de IA",
@@ -282,6 +292,11 @@
             "duracao": "(1,5 Ano)"
           },
           {
+            "nome": "Futebol",
+            "duracao": "(1,5 Ano)",
+            "novo": true
+          },
+          {
             "nome": "Gastronomia",
             "duracao": "(1,5 Ano)"
           },
@@ -296,6 +311,11 @@
           {
             "nome": "Gestão de Atividade Policial",
             "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Gestão de Eventos",
+            "duracao": "(1,5 Ano)",
+            "novo": true
           },
           {
             "nome": "Gestão da Produção Industrial",
@@ -358,6 +378,11 @@
             "duracao": "(2,5 Anos)"
           },
           {
+            "nome": "Gestão do Bem-Estar e Risco Psicossocial",
+            "duracao": "(1,5 Ano)",
+            "novo": true
+          },
+          {
             "nome": "Gestão do Esporte",
             "duracao": "(1,5 Ano)"
           },
@@ -372,6 +397,11 @@
           {
             "nome": "Gestão Pública",
             "duracao": "(2 Anos)"
+          },
+          {
+            "nome": "Hotelaria",
+            "duracao": "(1,5 Ano)",
+            "novo": true
           },
           {
             "nome": "Inteligência Artificial",
@@ -428,6 +458,11 @@
           {
             "nome": "Produção Audiovisual",
             "duracao": "(1,5 Ano)"
+          },
+          {
+            "nome": "Produção Cultural",
+            "duracao": "(1,5 Ano)",
+            "novo": true
           },
           {
             "nome": "Produção de Conteúdos Digitais",
