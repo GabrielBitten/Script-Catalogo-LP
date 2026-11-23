@@ -577,23 +577,34 @@
     iniciarModais();
   }
 
-  /* ---------- Ponto de entrada: busca a config do polo e o catálogo ----------
-     cache:'no-cache' faz o navegador confirmar com o jsDelivr se o JSON mudou
-     (resposta 304 bem leve quando não mudou). Sem isso o navegador reusa a
-     cópia antiga por até 7 dias, mesmo depois do purge. */
-  var SEM_CACHE = { cache:'no-cache' };
-  fetch(CONFIG_URL, SEM_CACHE)
-    .then(function(res){
-      if(!res.ok) throw new Error('Falha ao carregar a configuração do polo (' + res.status + ')');
-      return res.json();
-    })
+  /* ---------- Busca de JSON: direto do GitHub, jsDelivr de reserva ----------
+     Os JSONs são lidos direto do GitHub (raw.githubusercontent.com): atualiza
+     em até 5 min depois do commit, sem precisar de purge. O cache do jsDelivr
+     às vezes ignora o purge em alguns servidores (ex.: São Paulo) e segura a
+     versão antiga por horas. Se o GitHub falhar, usa a URL original (jsDelivr).
+     cache:'no-cache' faz o navegador confirmar se o arquivo mudou. */
+  function urlGithub(url){
+    var m = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^\/]+)\/([^@\/]+)@([^\/]+)\/(.+)$/);
+    return m ? 'https://raw.githubusercontent.com/' + m[1] + '/' + m[2] + '/' + m[3] + '/' + m[4] : url;
+  }
+
+  function buscarJSON(url, nome){
+    function ler(endereco){
+      return fetch(endereco, { cache:'no-cache' }).then(function(res){
+        if(!res.ok) throw new Error('Falha ao carregar ' + nome + ' (' + res.status + ')');
+        return res.json();
+      });
+    }
+    var direto = urlGithub(url);
+    if(direto === url) return ler(url);
+    return ler(direto).catch(function(){ return ler(url); });
+  }
+
+  /* ---------- Ponto de entrada: busca a config do polo e o catálogo ---------- */
+  buscarJSON(CONFIG_URL, 'a configuração do polo')
     .then(function(config){
       montarSite(config);
-      return fetch(CURSOS_JSON_URL, SEM_CACHE)
-        .then(function(res){
-          if(!res.ok) throw new Error('Falha ao carregar cursos.json (' + res.status + ')');
-          return res.json();
-        })
+      return buscarJSON(CURSOS_JSON_URL, 'cursos.json')
         .then(function(dadosCursos){
           var dadosFiltrados = aplicarExclusoes(dadosCursos, config.excluirCursosContendo, config.excluirGrupos);
           montarCursos(config, dadosFiltrados);
