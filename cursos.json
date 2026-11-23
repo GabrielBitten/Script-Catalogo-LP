@@ -1559,19 +1559,15 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "CONTABILIDADE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTABILIDADE, ORÇAMENTO E AUDITORIA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "CONTROLADORIA E AUDITORIA NO SETOR PÚBLICO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DIREITO ADMINISTRATIVO E GESTÃO DE PESSOAS NO SETOR PÚBLICO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DIREITO ADMINISTRATIVO E GESTÃO ORÇAMENTÁRIA E FINANCEIRA NO SETOR PÚBLICO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DIREITO ADMINISTRATIVO E GESTÃO PÚBLICA",
             "duracao": "(360h)"
           },
           {
@@ -1580,6 +1576,10 @@
           },
           {
             "nome": "GESTÃO DE SERVIÇOS PÚBLICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO FINANCEIRA E ORÇAMENTÁRIA EM ORGANIZAÇÕES PÚBLICAS",
             "duracao": "(360h)"
           },
           {
@@ -1607,7 +1607,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "SEGURANÇA PÚBLICA",
+            "nome": "PLANEJAMENTO E ORÇAMENTO PÚBLICO",
             "duracao": "(360h)"
           }
         ]
@@ -1618,10 +1618,6 @@
         "cursos": [
           {
             "nome": "PRODUÇÃO ANIMAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ZOOLOGIA",
             "duracao": "(360h)"
           },
           {
@@ -1647,19 +1643,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "CONTROLE DE QUALIDADE E SEGURANÇA DE ALIMENTOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "GERENCIAMENTO DE PROJETOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "GERENCIAMENTO DE PROJETOS PARA ENGENHEIROS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "GESTÃO ÁGIL DE PROJETOS",
+            "nome": "COMUNICAÇÃO E ORATÓRIA",
             "duracao": "(360h)"
           },
           {
@@ -1671,11 +1655,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "GESTÃO DE ATIVOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "GESTÃO DE MARKETING E E-COMMERCE",
+            "nome": "GESTÃO DA TECNOLOGIA DA INFORMAÇÃO EM LOGÍSTICA",
             "duracao": "(360h)"
           },
           {
@@ -1688,10 +1668,6 @@
           },
           {
             "nome": "GESTÃO DE PROCESSOS LOGÍSTICOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "GESTÃO DE PROJETOS",
             "duracao": "(360h)"
           },
           {
@@ -1711,6 +1687,10 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "MBA EM LOGÍSTICA E SUPPLY CHAIN MANAGEMENT",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "GESTÃO ESTRATÉGICA DE VENDAS PARA VAREJO",
             "duracao": "(360h)"
           },
@@ -1723,16 +1703,12 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "LEAN MANUFACTURING",
+            "nome": "PCP - PLANEJAMENTO E CONTROLE DE PRODUÇÃO",
             "duracao": "(360h)"
           },
           {
-            "nome": "MARKETING DIGITAL",
+            "nome": "RECURSOS HUMANOS E FINANÇAS",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "MBA EM EMPREENDEDORISMO, MARKETING E FINANÇAS (2023)",
-            "duracao": "(400h)"
           },
           {
             "nome": "MBA EM GESTÃO COMERCIAL",
@@ -1751,16 +1727,8 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "MBA EM GESTÃO DE LOGÍSTICA E CADEIA DE SUPRIMENTOS (2023)",
-            "duracao": "(440h)"
-          },
-          {
             "nome": "MBA EM GESTÃO DE NEGÓCIOS E MARKETING",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "MBA EM GESTÃO DE PESSOAS",
-            "duracao": "(400h)"
           },
           {
             "nome": "MBA EM GESTÃO DE PESSOAS E LIDERANÇA",
@@ -1803,19 +1771,26 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "MBA EM LOGÍSTICA E SUPPLY CHAIN MANAGEMENT",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "MBA EM MARKETING E VENDAS",
             "duracao": "(360h)"
           },
           {
-            "nome": "PCP - PLANEJAMENTO E CONTROLE DE PRODUÇÃO",
-            "duracao": "(360h)"
+            "nome": "MBA EM EMPREENDEDORISMO, MARKETING E FINANÇAS (2023)",
+            "duracao": "(400h)"
           },
           {
-            "nome": "RECURSOS HUMANOS E FINANÇAS",
+            "nome": "MBA EM GESTÃO DE PESSOAS",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO DE LOGÍSTICA E CADEIA DE SUPRIMENTOS (2023)",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "MBA EM MARKETING E NEGÓCIOS IMOBILIÁRIOS"
+          },
+          {
+            "nome": "SOCIAL MEDIA E TRÁFEGO PAGO",
             "duracao": "(360h)"
           }
         ]
@@ -1824,6 +1799,50 @@
         "chave": "saude",
         "label": "Saúde",
         "cursos": [
+          {
+            "nome": "FARMÁCIA CLÍNICA E ATENÇÃO FARMACÊUTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA CLÍNICA E SERVIÇOS FARMACÊUTICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CUIDADOS BÁSICOS EM CENTRO CIRÚRGICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ODONTOLOGIA NO TRABALHO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE COLETIVA E EDUCAÇÃO EM SAÚDE BUCAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA NO ENSINO SUPERIOR EM SAÚDE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FARMÁCIA CLÍNICA E PRESCRIÇÃO FARMACÊUTICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NEUROCIÊNCIAS E COMPORTAMENTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE E ESPIRITUALIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOMOTRICIDADE NA SAÚDE",
+            "duracao": "(360h)"
+          },
           {
             "nome": "ADMINISTRAÇÃO HOSPITALAR",
             "duracao": "(360h)"
@@ -1841,19 +1860,15 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "ASSISTÊNCIA SOCIAL E SAÚDE PÚBLICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ATIVIDADE FÍSICA EM GRUPOS ESPECIAIS",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "AUDITORIA EM SAÚDE",
             "duracao": "(360h)"
           },
           {
             "nome": "AVALIAÇÃO FÍSICA, ESPORTIVA E FUNCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BIOLOGIA MOLECULAR, GENÉTICA AVANÇADA E BIOTECNOLOGIA",
             "duracao": "(360h)"
           },
           {
@@ -1865,19 +1880,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "CINESIOLOGIA, BIOMECÂNICA E TREINAMENTO FÍSICO",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "CITOLOGIA CLÍNICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CUIDADOS BÁSICOS EM CENTRO CIRÚRGICO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CUIDADOS CIRÚRGICOS, CENTRAL DE MATERIAL E ESTERILIZAÇÃO (CME)",
             "duracao": "(360h)"
           },
           {
@@ -1889,14 +1892,6 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "ENFERMAGEM DO TRABALHO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENFERMAGEM, URGÊNCIA E EMERGÊNCIA",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "ESTÉTICA E COSMETOLOGIA",
             "duracao": "(360h)"
           },
@@ -1905,39 +1900,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "FARMÁCIA CLÍNICA E ATENÇÃO FARMACÊUTICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FARMÁCIA CLÍNICA E PRESCRIÇÃO FARMACÊUTICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FARMÁCIA CLÍNICA E SERVIÇOS FARMACÊUTICOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FARMÁCIA HOSPITALAR",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "FISIOLOGIA DO EXERCÍCIO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FISIOTERAPIA DERMATOFUNCIONAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FISIOTERAPIA HOSPITALAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FISIOTERAPIA NEUROLÓGICA ADULTA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FISIOTERAPIA RESPIRATÓRIA",
             "duracao": "(360h)"
           },
           {
@@ -1965,10 +1928,6 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "GESTÃO EM SAÚDE DA FAMÍLIA",
-            "duracao": "(440h)"
-          },
-          {
             "nome": "GESTÃO EM SAÚDE MENTAL",
             "duracao": "(360h)"
           },
@@ -1989,20 +1948,8 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "INSTRUMENTALIDADE DO SERVIÇO SOCIAL",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "INTERVENÇÃO PSICOSSOCIAL NO CONTEXTO MULTIDISCIPLINAR",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "INVESTIGAÇÃO CRIMINAL E PSICOLOGIA FORENSE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "MBA EM GESTÃO EM SAÚDE",
-            "duracao": "(440h)"
           },
           {
             "nome": "MEDICINA DO TRABALHO",
@@ -2013,7 +1960,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "NEUROCIÊNCIAS E COMPORTAMENTO",
+            "nome": "NEUROPSICOPEDAGOGIA NA SAÚDE",
             "duracao": "(360h)"
           },
           {
@@ -2049,10 +1996,6 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "ODONTOLOGIA NO TRABALHO",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "ONCOLOGIA",
             "duracao": "(360h)"
           },
@@ -2061,31 +2004,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "PSICOLOGIA E DESENVOLVIMENTO DA APRENDIZAGEM",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "PSICOLOGIA E DESENVOLVIMENTO INFANTIL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "PSICOLOGIA EM SAÚDE MENTAL",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "PSICOLOGIA HOSPITALAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "PSICOLOGIA ORGANIZACIONAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "PSICOMOTRICIDADE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "PSICOMOTRICIDADE NA SAÚDE",
             "duracao": "(360h)"
           },
           {
@@ -2097,56 +2016,12 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "SAÚDE COLETIVA E COMUNITÁRIA",
-            "duracao": "(440h)"
-          },
-          {
-            "nome": "SAÚDE COLETIVA E EDUCAÇÃO EM SAÚDE BUCAL",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "SAÚDE DA MULHER",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SAÚDE DO IDOSO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SAÚDE DO TRABALHADOR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SAÚDE E ESPIRITUALIDADE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SAÚDE PÚBLICA",
-            "duracao": "(400h)"
-          },
-          {
-            "nome": "SAÚDE PÚBLICA COM ÊNFASE EM SAÚDE DA FAMÍLIA",
             "duracao": "(360h)"
           },
           {
             "nome": "SEGURANÇA DO PACIENTE E GESTÃO DE QUALIDADE",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "SERVIÇO SOCIAL E SAÚDE PÚBLICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SERVIÇO SOCIAL HOSPITALAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "TRANSTORNO DO ESPECTRO AUTISTA (TEA): INTERVENÇÃO PRECOCE E EQUIPE MULTIDISCIPLINAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "TRANSTORNO DO ESPECTRO AUTISTA (TEA): INTERVENÇÃO PRECOCE E EQUIPE MULTIDISCIPLINAR - SEMI",
-            "duracao": "(500h)"
           },
           {
             "nome": "UTI - UNIDADE DE TERAPIA INTENSIVA",
@@ -2163,6 +2038,98 @@
           {
             "nome": "VIGILÂNCIA SANITÁRIA E QUALIDADE DE ALIMENTOS",
             "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA ORGANIZACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE COLETIVA E COMUNITÁRIA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "MBA EM GESTÃO EM SAÚDE",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "PSICOLOGIA JURÍDICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CUIDADOS CIRÚRGICOS, CENTRAL DE MATERIAL E ESTERILIZAÇÃO (CME)",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL E SAÚDE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "INSTRUMENTALIDADE DO SERVIÇO SOCIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE DO IDOSO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE DO TRABALHADOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE PÚBLICA COM ÊNFASE EM SAÚDE DA FAMÍLIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SERVIÇO SOCIAL E SAÚDE PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SERVIÇO SOCIAL HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ATIVIDADE FÍSICA EM GRUPOS ESPECIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CINESIOLOGIA, BIOMECÂNICA E TREINAMENTO FÍSICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FÍSICA PARA DIABÉTICOS E DOENÇAS CRÔNICAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA DERMATOFUNCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA HOSPITALAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA NEUROLÓGICA ADULTA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FISIOTERAPIA RESPIRATÓRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA E DESENVOLVIMENTO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA EM SAÚDE MENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "NUTRIÇÃO ONCOLÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SAÚDE PÚBLICA",
+            "duracao": "(400h)"
           }
         ]
       },
@@ -2171,19 +2138,15 @@
         "label": "Tecnologia",
         "cursos": [
           {
+            "nome": "INTELIGÊNCIA ARTIFICIAL E MACHINE LEARNING",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "ANÁLISE DE SISTEMAS",
             "duracao": "(360h)"
           },
           {
-            "nome": "APRENDIZAGEM DE MÁQUINA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "BANCO DE DADOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "BIOLOGIA MOLECULAR, GENÉTICA AVANÇADA E BIOTECNOLOGIA",
+            "nome": "ARQUITETURA E GESTÃO DE INFRAESTRUTURA EM TI",
             "duracao": "(360h)"
           },
           {
@@ -2199,19 +2162,11 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "DESENVOLVIMENTO DE SISTEMAS COM C#",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DESENVOLVIMENTO DE SISTEMAS WEB COM PHP",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "ENGENHARIA DE SOFTWARE",
             "duracao": "(360h)"
           },
           {
-            "nome": "GESTÃO DA TECNOLOGIA DA INFORMAÇÃO EM LOGÍSTICA",
+            "nome": "GESTÃO DE PROJETOS",
             "duracao": "(360h)"
           },
           {
@@ -2223,7 +2178,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "INTELIGÊNCIA ARTIFICIAL E MACHINE LEARNING",
+            "nome": "SEGURANÇA DA INFORMAÇÃO",
             "duracao": "(360h)"
           },
           {
@@ -2231,19 +2186,11 @@
             "duracao": "(400h)"
           },
           {
-            "nome": "PROTEÇÃO DE SISTEMAS ELÉTRICOS",
+            "nome": "GESTÃO DE PROJETOS E GOVERNANÇA DE TI",
             "duracao": "(360h)"
           },
           {
-            "nome": "SEGURANÇA DA INFORMAÇÃO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SEGURANÇA DE REDES E COMPUTADORES",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "TECNOLOGIAS APLICADAS AO ENSINO A DISTÂNCIA",
+            "nome": "CIBERSEGURANÇA, GOVERNANÇA E PROTEÇÃO DE DADOS",
             "duracao": "(360h)"
           }
         ]
