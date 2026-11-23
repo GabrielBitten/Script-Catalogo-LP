@@ -595,6 +595,10 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "AGRIMENSURA",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "AGROMETEOROLOGIA E CLIMATOLOGIA",
             "duracao": "(360h)"
           },
@@ -603,15 +607,7 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "AGRONEGÓCIO: GESTÃO E CONTABILIDADE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DIREITO APLICADO AO AGRONEGÓCIO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA AGRONÔMICA - ÊNFÂSE EM MANEJO DE PRAGAS E AGRICULTURA",
+            "nome": "CERTIFICAÇÃO AMBIENTAL E CONSULTORIA",
             "duracao": "(360h)"
           },
           {
@@ -619,7 +615,27 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "GESTÃO AMBIENTAL E SUSTENTABILIDADE",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "GESTÃO E ECONOMIA DO AGRONEGÓCIO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "RECUPERAÇÃO AMBIENTAL DE ÁREAS DEGRADADAS E CONTAMINADAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "SUSTENTABILIDADE E MEIO AMBIENTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CONTROLE DE QUALIDADE E SEGURANÇA DE ALIMENTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ZOOLOGIA",
             "duracao": "(360h)"
           }
         ]
@@ -629,24 +645,12 @@
         "label": "Comunicação e Design",
         "cursos": [
           {
-            "nome": "ARQUITETURA E DESIGN DE INTERIORES",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "BRANDING E RELAÇÕES PÚBLICAS",
             "duracao": "(360h)"
           },
           {
             "nome": "COMUNICAÇÃO E MULTIMEIOS",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "COMUNICAÇÃO E ORATÓRIA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DESIGN INSTRUCIONAL",
-            "duracao": "(400h)"
           },
           {
             "nome": "DESIGN THINKING, CRIATIVIDADE E INOVAÇÃO",
@@ -661,19 +665,15 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "GESTÃO DE MARKETING E E-COMMERCE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "MARKETING DIGITAL",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "MBA EM COMUNICAÇÃO CORPORATIVA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "REVISÃO DE TEXTO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "SOCIAL MEDIA E TRÁFEGO PAGO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "TRADUÇÃO: A TRADUÇÃO TÉCNICA",
             "duracao": "(360h)"
           }
         ]
@@ -695,8 +695,16 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "DIREITO ADMINISTRATIVO",
-            "duracao": "(420h)"
+            "nome": "DIREITO ADMINISTRATIVO E GESTÃO DE PESSOAS NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO E GESTÃO ORÇAMENTÁRIA E FINANCEIRA NO SETOR PÚBLICO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO E GESTÃO PÚBLICA",
+            "duracao": "(360h)"
           },
           {
             "nome": "DIREITO ADUANEIRO",
@@ -704,6 +712,10 @@
           },
           {
             "nome": "DIREITO AMBIENTAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO APLICADO AO AGRONEGÓCIO",
             "duracao": "(360h)"
           },
           {
@@ -728,10 +740,6 @@
           },
           {
             "nome": "DIREITO E SERVIÇO SOCIAL NO JUDICIÁRIO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DIREITO EDUCACIONAL",
             "duracao": "(360h)"
           },
           {
@@ -771,10 +779,6 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "DIREITO PÚBLICO",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "DIREITO TRIBUTÁRIO",
             "duracao": "(360h)"
           },
@@ -783,11 +787,15 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "DOCÊNCIA EM DIREITO CIVIL",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "DOCÊNCIA EM DIREITO PENAL",
             "duracao": "(360h)"
           },
           {
-            "nome": "LICITAÇÕES E CONTRATOS - LEI 14.133/2021",
+            "nome": "INVESTIGAÇÃO CRIMINAL E PSICOLOGIA FORENSE",
             "duracao": "(360h)"
           },
           {
@@ -795,7 +803,15 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "PSICOLOGIA JURÍDICA",
+            "nome": "SEGURANÇA PÚBLICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO ADMINISTRATIVO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO PÚBLICO",
             "duracao": "(360h)"
           }
         ]
@@ -805,103 +821,23 @@
         "label": "Educação",
         "cursos": [
           {
-            "nome": "A MODERNA EDUCAÇÃO: METODOLOGIAS, TENDÊNCIAS E FOCO NO ALUNO",
+            "nome": "PEDAGOGIA EMPRESARIAL E EDUCAÇÃO CORPORATIVA",
             "duracao": "(360h)"
           },
           {
-            "nome": "ABA APLICADA AO TRANSTORNO DO ESPECTRO AUTISTA (TEA)",
-            "duracao": "(400h)"
+            "nome": "TRANSTORNO DO ESPECTRO AUTISTA (TEA): INTERVENÇÃO PRECOCE E EQUIPE MULTIDISCIPLINAR",
+            "duracao": "(360h)"
           },
           {
             "nome": "ADMINISTRAÇÃO, SUPERVISÃO E ORIENTAÇÃO EDUCACIONAL",
             "duracao": "(440h)"
           },
           {
-            "nome": "ALFABETIZAÇÃO E LETRAMENTO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ALFABETIZAÇÃO E LETRAMENTO E A PSICOPEDAGOGIA INSTITUCIONAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ANDRAGOGIA: FORMAÇÃO DE JOVENS E ADULTOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ARTE E EDUCAÇÃO",
-            "duracao": "(520h)"
-          },
-          {
-            "nome": "ATENDIMENTO EDUCACIONAL ESPECIALIZADO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ATENDIMENTO EDUCACIONAL ESPECIALIZADO (AEE) E A EDUCAÇÃO INCLUSIVA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "BASE NACIONAL COMUM CURRICULAR (BNCC): FORMAÇÃO DOCENTE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "BASE NACIONAL COMUM CURRICULAR: GESTÃO EDUCACIONAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CIÊNCIA E A PESQUISA CIENTÍFICA NO ENSINO SUPERIOR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CIÊNCIAS DA RELIGIÃO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "COORDENAÇÃO PEDAGÓGICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "COORDENAÇÃO PEDAGÓGICA E PLANEJAMENTO EDUCACIONAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "COORDENAÇÃO PEDAGÓGICA E SUPERVISÃO ESCOLAR",
-            "duracao": "(400h)"
-          },
-          {
-            "nome": "COORDENAÇÃO PEDAGÓGICA PARA POLOS DE APOIO PRESENCIAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA DO ENSINO DE EDUCAÇÃO FÍSICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA DO ENSINO DE FILOSOFIA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA DO ENSINO RELIGIOSO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA DO ENSINO SUPERIOR",
-            "duracao": "(360h)"
+            "nome": "TRANSTORNO DO ESPECTRO AUTISTA (TEA): INTERVENÇÃO PRECOCE E EQUIPE MULTIDISCIPLINAR - SEMI",
+            "duracao": "(500h)"
           },
           {
             "nome": "DOCÊNCIA E GESTÃO DO ENSINO SUPERIOR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA EM DIREITO CIVIL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA NA EDUCAÇÃO INFANTIL E ANOS INICIAIS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DOCÊNCIA NA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
             "duracao": "(360h)"
           },
           {
@@ -909,47 +845,31 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "DOCÊNCIA NO ENSINO SUPERIOR EM SAÚDE",
+            "nome": "MEDIAÇÃO PEDAGÓGICA",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO AMBIENTAL E SUSTENTABILIDADE",
+            "nome": "COORDENAÇÃO PEDAGÓGICA PARA POLOS DE APOIO PRESENCIAL",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO DE JOVENS E ADULTOS - EJA",
+            "nome": "DOCÊNCIA NA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO ESPECIAL",
+            "nome": "GESTÃO NA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO ESPECIAL COM ÊNFASE EM DEFICIÊNCIA INTELECTUAL, FÍSICA E PSICOMOTORA",
+            "nome": "ALFABETIZAÇÃO E LETRAMENTO",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO ESPECIAL COM ÊNFASE EM TRANSTORNOS GLOBAIS DE DESENVOLVIMENTO (TGD) E ALTAS HABILIDADES",
+            "nome": "DOCÊNCIA NA EDUCAÇÃO INFANTIL E ANOS INICIAIS",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO ESPECIAL E INCLUSIVA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "EDUCAÇÃO ESPECIAL E PSICOMOTRICIDADE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "EDUCAÇÃO FÍSICA E A PSICOMOTRICIDADE COM ÊNFASE NA EDUCAÇÃO INCLUSIVA",
-            "duracao": "(440h)"
-          },
-          {
-            "nome": "EDUCAÇÃO FÍSICA ESCOLAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "EDUCAÇÃO FÍSICA PARA DIABÉTICOS E DOENÇAS CRÔNICAS",
+            "nome": "DOCÊNCIA DO ENSINO DE EDUCAÇÃO FÍSICA",
             "duracao": "(360h)"
           },
           {
@@ -957,43 +877,11 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO INFANTIL DE 0 e 6 ANOS",
-            "duracao": "(520h)"
-          },
-          {
             "nome": "EDUCAÇÃO INFANTIL E O DESENVOLVIMENTO DA CRIANÇA POR MEIO DOS JOGOS",
             "duracao": "(360h)"
           },
           {
-            "nome": "EDUCAÇÃO INFANTIL, ANOS INICIAIS E PSICOPEDAGOGIA",
-            "duracao": "(560h)"
-          },
-          {
-            "nome": "EDUCAÇÃO INFANTIL, EDUCAÇÃO ESPECIAL E TRANSTORNOS GLOBAIS",
-            "duracao": "(400h)"
-          },
-          {
-            "nome": "EDUCAÇÃO SOCIAL E CIDADANIA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "EDUCAÇÃO, LUDICIDADE E DESENVOLVIMENTO INFANTIL",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "ENSINO LÚDICO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ESCOLA DE GESTORES: FORMAÇÃO PRÁTICA DA GESTÃO ESCOLAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FORMAÇÃO DE PROFESSORES DA EDUCAÇÃO BÁSICA PARA O ENSINO DE ARTE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "FORMAÇÃO DE PROFESSORES PARA A EDUCAÇÃO BÁSICA",
             "duracao": "(360h)"
           },
           {
@@ -1013,19 +901,195 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE LÍNGUA ESPANHOLA",
+            "nome": "EDUCAÇÃO INFANTIL, EDUCAÇÃO ESPECIAL E TRANSTORNOS GLOBAIS",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL DE 0 E 6 ANOS",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "EDUCAÇÃO INFANTIL, ANOS INICIAIS E PSICOPEDAGOGIA",
+            "duracao": "(560h)"
+          },
+          {
+            "nome": "TRADUÇÃO: A TRADUÇÃO TÉCNICA",
             "duracao": "(360h)"
           },
           {
-            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE LÍNGUA PORTUGUESA",
+            "nome": "A MODERNA EDUCAÇÃO: METODOLOGIAS, TENDÊNCIAS E FOCO NO ALUNO",
             "duracao": "(360h)"
           },
           {
-            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE METODOLOGIA DE PESQUISA CIENTÍFICA",
+            "nome": "ANDRAGOGIA: FORMAÇÃO DE JOVENS E ADULTOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ATENDIMENTO EDUCACIONAL ESPECIALIZADO (AEE) E A EDUCAÇÃO INCLUSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BASE NACIONAL COMUM CURRICULAR (BNCC): FORMAÇÃO DOCENTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "BASE NACIONAL COMUM CURRICULAR: GESTÃO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DIREITO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO DE FILOSOFIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO RELIGIOSO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DOCÊNCIA DO ENSINO SUPERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO AMBIENTAL E SUSTENTABILIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FÍSICA ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO SOCIAL E CIDADANIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES DA EDUCAÇÃO BÁSICA PARA O ENSINO DE ARTE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA A EDUCAÇÃO BÁSICA",
             "duracao": "(360h)"
           },
           {
             "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE SOCIOLOGIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO ESCOLAR INTEGRADORA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "HISTÓRIA E CULTURA AFRO-BRASILEIRA E INDÍGENA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PRÁTICAS EM EDUCAÇÃO BILÍNGUE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOMOTRICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOPEDAGOGIA E ALTAS HABILIDADES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "REVISÃO DE TEXTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TECNOLOGIAS APLICADAS AO ENSINO A DISTÂNCIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TECNOLOGIAS DIGITAIS E INOVAÇÃO NA EDUCAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TUTORIA EM EDUCAÇÃO A DISTÂNCIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "TEORIA DA LITERATURA E PRODUÇÃO DE TEXTO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "DESIGN INSTRUCIONAL",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "LITERATURA: GÊNEROS LITERÁRIOS E CRÍTICA LITERÁRIA",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "PSICOPEDAGOGIA E PSICOMOTRICIDADE",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "EDUCAÇÃO FÍSICA E A PSICOMOTRICIDADE COM ÊNFASE NA EDUCAÇÃO INCLUSIVA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "TUTORIA E GESTÃO EM EDUCAÇÃO A DISTÂNCIA",
+            "duracao": "(440h)"
+          },
+          {
+            "nome": "LETRAMENTO DIGITAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ALFABETIZAÇÃO E LETRAMENTO E A PSICOPEDAGOGIA INSTITUCIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "CIÊNCIA E A PESQUISA CIENTÍFICA NO ENSINO SUPERIOR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA E PLANEJAMENTO EDUCACIONAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO DE JOVENS E ADULTOS - EJA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL E INCLUSIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL COM ÊNFASE EM DEFICIÊNCIA INTELECTUAL, FÍSICA E PSICOMOTORA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL COM ÊNFASE EM TRANSTORNOS GLOBAIS DE DESENVOLVIMENTO (TGD) E ALTAS HABILIDADES",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO ESPECIAL E PSICOMOTRICIDADE",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "EDUCAÇÃO, LUDICIDADE E DESENVOLVIMENTO INFANTIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ESCOLA DE GESTORES: FORMAÇÃO PRÁTICA DA GESTÃO ESCOLAR",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE METODOLOGIA DE PESQUISA CIENTÍFICA",
             "duracao": "(360h)"
           },
           {
@@ -1041,60 +1105,8 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "GESTÃO ESCOLAR INTEGRADORA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "GESTÃO NA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "HISTÓRIA DO BRASIL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "HISTÓRIA E CULTURA AFRO-BRASILEIRA E INDÍGENA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "HISTÓRIA E CULTURA NO BRASIL",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "LIBRAS E EDUCAÇÃO INCLUSIVA",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "LÍNGUA PORTUGUESA - REDAÇÃO E ORATÓRIA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "LÍNGUA PORTUGUESA E INGLÊS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "LÍNGUA PORTUGUESA E LITERATURA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "LITERATURA: GÊNEROS LITERÁRIOS E CRÍTICA LITERÁRIA",
-            "duracao": "(400h)"
-          },
-          {
-            "nome": "MEDIAÇÃO PEDAGÓGICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "METODOLOGIA DO ENSINO DA GEOGRAFIA",
-            "duracao": "(520h)"
-          },
-          {
-            "nome": "METODOLOGIA DO ENSINO DA LÍNGUA PORTUGUESA",
-            "duracao": "(520h)"
-          },
-          {
-            "nome": "METODOLOGIA DO ENSINO DA LÍNGUA PORTUGUESA, LITERATURA BRASILEIRA E PORTUGUESA",
-            "duracao": "(600h)"
           },
           {
             "nome": "METODOLOGIA DO ENSINO DA MATEMÁTICA E FÍSICA",
@@ -1114,10 +1126,6 @@
           },
           {
             "nome": "METODOLOGIAS ATIVAS E PRÁTICA DOCENTE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "NEUROPSICOPEDAGOGIA NA SAÚDE",
             "duracao": "(360h)"
           },
           {
@@ -1145,15 +1153,11 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "PEDAGOGIA EMPRESARIAL E EDUCAÇÃO CORPORATIVA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "PRÁTICAS EM EDUCAÇÃO BILÍNGUE",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "PSICOLOGIA DA EDUCAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PSICOLOGIA E DESENVOLVIMENTO DA APRENDIZAGEM",
             "duracao": "(360h)"
           },
           {
@@ -1161,36 +1165,68 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "PSICOPEDAGOGIA E ALTAS HABILIDADES",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "PSICOPEDAGOGIA E EDUCAÇÃO INCLUSIVA",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "PSICOPEDAGOGIA E PSICOMOTRICIDADE",
-            "duracao": "(400h)"
           },
           {
             "nome": "SUPERVISÃO E COORDENAÇÃO PEDAGÓGICA",
             "duracao": "(360h)"
           },
           {
-            "nome": "TECNOLOGIAS DIGITAIS E INOVAÇÃO NA EDUCAÇÃO",
+            "nome": "ABA APLICADA AO TRANSTORNO DO ESPECTRO AUTISTA (TEA)",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "COORDENAÇÃO PEDAGÓGICA E SUPERVISÃO ESCOLAR",
+            "duracao": "(400h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA GEOGRAFIA",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA LÍNGUA PORTUGUESA",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "CIÊNCIAS DA RELIGIÃO",
             "duracao": "(360h)"
           },
           {
-            "nome": "TEORIA DA LITERATURA E PRODUÇÃO DE TEXTO",
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE LÍNGUA ESPANHOLA",
             "duracao": "(360h)"
           },
           {
-            "nome": "TUTORIA E GESTÃO EM EDUCAÇÃO A DISTÂNCIA",
-            "duracao": "(440h)"
+            "nome": "FORMAÇÃO DE PROFESSORES PARA O ENSINO DE LÍNGUA PORTUGUESA",
+            "duracao": "(360h)"
           },
           {
-            "nome": "TUTORIA EM EDUCAÇÃO A DISTÂNCIA",
+            "nome": "HISTÓRIA DO BRASIL",
             "duracao": "(360h)"
+          },
+          {
+            "nome": "HISTÓRIA E CULTURA NO BRASIL",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LÍNGUA PORTUGUESA - REDAÇÃO E ORATÓRIA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LÍNGUA PORTUGUESA E INGLÊS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "LÍNGUA PORTUGUESA E LITERATURA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ARTE E EDUCAÇÃO",
+            "duracao": "(520h)"
+          },
+          {
+            "nome": "METODOLOGIA DO ENSINO DA LÍNGUA PORTUGUESA, LITERATURA BRASILEIRA E PORTUGUESA",
+            "duracao": "(600h)"
           }
         ]
       },
@@ -1199,143 +1235,7 @@
         "label": "Engenharia",
         "cursos": [
           {
-            "nome": "ARQUITETURA DA PAISAGEM",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ARQUITETURA E CIDADES",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ARQUITETURA E GESTÃO DE INFRAESTRUTURA EM TI",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CERTIFICAÇÃO AMBIENTAL E CONSULTORIA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CIÊNCIA E ENGENHARIA DOS MATERIAIS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CONSTRUÇÃO CIVIL RESIDENCIAIS, INDUSTRIAIS E ESPECIAIS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CONSTRUÇÃO CIVIL: RESIDENCIAL E INDUSTRIAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "DESENHO INDUSTRIAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENERGIAS RENOVÁVEIS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA AMBIENTAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA AMBIENTAL E SANEAMENTO BÁSICO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA CIVIL E ARQUITETURA SUSTENTÁVEL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE ALIMENTOS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE CONFORTO TÉRMICO AMBIENTAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO INDUSTRIAL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE ESTRUTURAS EM CONCRETO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE INFRAESTRUTURA EM MEIOS DE TRANSPORTE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE MATERIAIS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE MATERIAIS COM ENFÂSE EM CORROSÃO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE MINAS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE MOBILIDADE URBANA E SMART CITIES",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE OBRAS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE OPERAÇÕES E LOGÍSTICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE POLÍMEROS",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE PRODUÇÃO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE PRODUÇÃO COM ÊNFASE NA CONSTRUÇÃO CIVIL",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE QUALIDADE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE SEGURANÇA CONTRA INCÊNDIO, PÂNICO E ELETRICIDADE",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA DE SEGURANÇA DO TRABALHO",
-            "duracao": "(610h)"
-          },
-          {
-            "nome": "ENGENHARIA DE TRÁFEGO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA E DESENVOLVIMENTO DE PRODUTO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA E GERENCIAMENTO DE MANUTENÇÃO",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA E GESTÃO HOSPITALAR",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA ELÉTRICA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "ENGENHARIA ELÉTRICA COM ÊNFASE EM INSTALAÇÕES INDUSTRIAIS",
+            "nome": "AUTOMAÇÃO E MANUTENÇÃO INDUSTRIAL",
             "duracao": "(360h)"
           },
           {
@@ -1359,10 +1259,6 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "ENGENHARIA MINERAL E PETROGRAFIA",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "ENGENHARIA QUÍMICA",
             "duracao": "(360h)"
           },
@@ -1371,11 +1267,11 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "GESTÃO AMBIENTAL E SUSTENTABILIDADE",
+            "nome": "GERENCIAMENTO DE PROJETOS PARA ENGENHEIROS",
             "duracao": "(360h)"
           },
           {
-            "nome": "MBA EM SEGURANÇA DO TRABALHO E GESTÃO AMBIENTAL",
+            "nome": "LEAN MANUFACTURING",
             "duracao": "(360h)"
           },
           {
@@ -1383,16 +1279,44 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "RECUPERAÇÃO AMBIENTAL DE ÁREAS DEGRADADAS E CONTAMINADAS",
+            "nome": "MBA EM SEGURANÇA DO TRABALHO E GESTÃO AMBIENTAL",
             "duracao": "(360h)"
           },
           {
-            "nome": "SUSTENTABILIDADE E MEIO AMBIENTE",
+            "nome": "ENGENHARIA DE SEGURANÇA DO TRABALHO",
+            "duracao": "(610h)"
+          },
+          {
+            "nome": "ENGENHARIA DE MINAS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE ATIVOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO DE CUSTOS INDUSTRIAIS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "GESTÃO PRODUTIVA",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "PROTEÇÃO DE SISTEMAS ELÉTRICOS",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "ENGENHARIA MINERAL E PETROGRAFIA",
             "duracao": "(360h)"
           },
           {
             "nome": "TÉCNICAS DE CONSTRUÇÃO CIVIL",
             "duracao": "(360h)"
+          },
+          {
+            "nome": "PETRÓLEO E GÁS",
+            "duracao": "(400h)"
           }
         ]
       },
@@ -1402,6 +1326,10 @@
         "cursos": [
           {
             "nome": "ADMINISTRAÇÃO FINANCEIRA E NEGOCIAÇÃO",
+            "duracao": "(360h)"
+          },
+          {
+            "nome": "AGRONEGÓCIO: GESTÃO E CONTABILIDADE",
             "duracao": "(360h)"
           },
           {
@@ -1437,19 +1365,11 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "CONTABILIDADE PÚBLICA",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "CONTABILIDADE TRIBUTÁRIA",
             "duracao": "(360h)"
           },
           {
             "nome": "CONTABILIDADE, AUDITORIA E PERÍCIA",
-            "duracao": "(360h)"
-          },
-          {
-            "nome": "CONTABILIDADE, ORÇAMENTO E AUDITORIA NO SETOR PÚBLICO",
             "duracao": "(360h)"
           },
           {
@@ -1477,16 +1397,8 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "GESTÃO FINANCEIRA E ORÇAMENTÁRIA EM ORGANIZAÇÕES PÚBLICAS",
-            "duracao": "(360h)"
-          },
-          {
             "nome": "GESTÃO FINANCEIRA ESCOLAR",
             "duracao": "(360h)"
-          },
-          {
-            "nome": "LEGISLAÇÃO, PERÍCIA E AUDITORIA AMBIENTAL",
-            "duracao": "(440h)"
           },
           {
             "nome": "MATEMÁTICA FINANCEIRA E ESTATÍSTICA",
@@ -1513,6 +1425,10 @@
             "duracao": "(360h)"
           },
           {
+            "nome": "MBA EXECUTIVO EM GESTÃO DE ASSOCIAÇÕES COMERCIAIS",
+            "duracao": "(360h)"
+          },
+          {
             "nome": "MBA EM GESTÃO FINANCEIRA E CONTROLADORIA",
             "duracao": "(360h)"
           },
@@ -1525,8 +1441,8 @@
             "duracao": "(360h)"
           },
           {
-            "nome": "PLANEJAMENTO E ORÇAMENTO PÚBLICO",
-            "duracao": "(360h)"
+            "nome": "LEGISLAÇÃO, PERÍCIA E AUDITORIA AMBIENTAL",
+            "duracao": "(440h)"
           }
         ]
       },
